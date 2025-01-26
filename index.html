@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com" rel="preconnect">
+		<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&amp;display=swap" rel="stylesheet">
+		<meta name="theme-color" content="#FFFFFF">
+		<link href="/manifest.webmanifest" rel="manifest">
+		<link href="/3-favicon.c94342cf.ico" rel="icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="/js/index.8d36b604.js"></script>
+		<link href="/css/index.8d9c6f34.css" rel="stylesheet" type="text/css">
+		<title>Home | HPDS Lab, NCKU EE</title>
+	</head>
+	<body>
+		<div id="header">
+			<a href="/#"><img id="logo-small" src="/img/logo-small.31976df1.webp"></a>
+			<a href="/#">Home</a>
+			<a href="/#introduction">About</a>
+			<a href="/#publication">Publications</a>
+			<a href="/#contact-us">Contact Us</a>
+			<a class="archived" href="/announcement.html">Announcement</a>
+		</div>
+		<div id="header-dummy"></div>
+		<div id="menu-button-container">
+			<input id="menu-button" type="checkbox">
+			<div id="menu-button-background-container">
+				<label id="menu-button-background">
+					<span class="menu-button-background-line"></span>
+					<span class="menu-button-background-line"></span>
+					<span class="menu-button-background-line"></span>
+				</label>
+			</div>
+			<div id="menu-item-list">
+				<a href="/#">Home</a>
+				<a href="/#introduction">About</a>
+				<a href="/#publication">Publications</a>
+				<a href="/#contact-us">Contact Us</a>
+				<a class="archived" href="/announcement.html">Announcement</a>
+			</div>
+		</div>
+		<div id="main-content-container">
+			<div class="col" id="lab-name">
+				<span class="center-text strong">高效能平行分散系統實驗室</span>
+				<span class="center-text">（High performance Parallel and Distributed System Lab — HPDS Lab）</span>
+			</div>
+			<img id="logo-large" src="/img/logo-large.1eccc484.webp">
+			<div id="slogan-container">
+				<div class="for-horizontal slogan-inner-container" following-layout-rules="">
+					<p class="center-text slogan">A Step Ahead of Any <span class="notice">Botnet Detection System</span></p>
+				</div>
+				<div class="for-vertical slogan-inner-container" following-layout-rules="">
+					<p class="center-text slogan">A Step Ahead of Any<br><span class="notice">Botnet Detection System</span></p>
+				</div>
+			</div>
+			<div id="introduction">
+				<div class="col" id="statistics">
+					<p class="strong">近十五年來</p>
+					<p class="col transpose">博班畢業學生已累積 <span id="num_phd">25</span> 位。</p>
+					<p class="col transpose">碩班畢業學生已累積 <span id="num_ms">131</span> 位。</p>
+					<p class="col transpose">發表論文數量已累積 <span id="num_pub">213</span> 篇。</p>
+					<p class="col transpose">專利技術已累積 <span id="num_patent">14</span> 項。</p>
+				</div>
+			</div>
+			<div class="col" id="lab-topic-container">
+				<div class="col" id="lab-topic-introduction">
+					<p class="strong">實驗室方向</p>
+					<p>根據資通安全管理法規定，行政院於108年6月提出了一份國家資通安全情勢報告，內容分析了107年政府機關以及國際間的資通安全威脅。針對全球資安情勢整理出六大項主要威脅，其中第二與第三項分別為DDoS（分散式阻斷服務）攻擊與IoT設備資安弱點威脅升高；而於政府機關的資安威脅統計中則明確指出107年Mirai（ミライ，未來）殭屍網路的攻擊次數高達一億多次，且目前仍持續散佈與感染中。由此可見針對殭屍網路的威脅處理已刻不容緩。</p>
+					<p>本實驗室針對真實網路流量統計資料進行處理，利用機器學習分析惡意軟體的行為模式找出潛伏期的受感染主機，以求在殭屍網路發動攻擊前先一步阻止其行動。為迎合真實網路中流量資料龐大的問題，本實驗室使用分散式運算處理架構作為構建系統的基礎。近年來也嘗試將深度學習演算法用於網路惡意流量分析的領域，得到不錯的成效。</p>
+					
+					<div class="align-bottom center-text row">
+						<div class="col">
+							<img src="/img/wifi-station.550774ba.jpg" alt="Wi-Fi station illustration">
+							<span>Real-World Traffic</span>
+						</div>
+						<div class="col">
+							<img src="/img/earth.01e868ca.jpg" alt="Earth illustration">
+							<span>Big Data Analysis</span>
+						</div>
+						<div class="col">
+							<img src="/img/botnet.05efff5a.png" alt="cartoon botnet">
+							<span>Botnet Detection</span>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="lab-topic-details">
+					<div class="col">
+						<p class="center-text for-horizontal strong">殭屍網路偵測</p>
+						<p class="align-left-self for-vertical subtitle">殭屍網路偵測</p>
+						<span class="col">BotCluster為本團隊近年來開發的P2P殭屍網路偵測（Botnet Detection）演算法，並於2018年發表於國際期刊Computer Network。BotCluster是基於非監督式機器學習演算法DBSCAN來進行群聚巨量（Big Data）網路資料（NetFlow），並偵測出被P2P殭屍網路感染的機器。本團隊也使用成功大學校園網路流量做驗證，偵測率可達97%。</span>
+					</div>
+					<div class="col">
+						<p class="center-text for-horizontal strong">近11年科技部計畫</p>
+						<p class="align-left-self for-vertical subtitle">近11年科技部計畫</p>
+						<ol>
+							<li>2020—2021：透過資料清理提升P2P殭屍網路偵測之深度學習效能</li>
+							<li>2018—2020：含物聯網之多型態殭屍網路深度學習偵測系統之研發</li>
+							<li>2015—2016：雲端服務之整體資安防禦系統</li>
+							<li>2014—2017：一個基於Fed-MR的通用型協同式P2P殭屍網路偵測系統</li>
+						</ol>
+					</div>
+					<div class="col">
+						<p class="center-text for-horizontal strong">實驗室資源</p>
+						<p class="align-left-self for-vertical subtitle">實驗室資源</p>
+						<span>本實驗室為進行大資料分析備有最多50個節點所組成的Hadoop叢集，進行平行運算處理巨量資料。每個節點的CPU為Intel Xeon E3-1230總共配有800GB的RAM和114TB的儲存空間。另外為了進行Deep Learning，實驗室備有1台RTX 2080 TI、2台RTX 2080 SUPER和一台GTX 1080的PC。實驗室也可提供經費租用國網中心提供的超級電腦台灣杉二號（TAIWANIA 2），協助訓練模型。</span>
+					</div>
+				</div>
+			</div>
+			<div class="align-left col p-list-with-header" id="professor-overview">
+				<p class="center-self strong">謝錫堃 教授</p>
+				<div class="row">
+					<div class="col">
+						<p class="subtitle">經歷</p>
+						<table id="experience">
+							<tbody>
+								<tr><th>2013 - 2019</th><td>財團法人國家實驗研究院國家高速網路與計算中心主任</td></tr>
+								<tr><th>2012 - 2013</th><td>國立成功大學電機資訊學院副院長</td></tr>
+								<tr><th>2005 - 2011</th><td>國立成功大學計算機與網路中心主任</td></tr>
+								<tr><th>2002 - 2005</th><td>國立成功大學電機工程學系（所）主任</td></tr>
+								<tr><th>1998 - 現在</th><td>國立成功大學電機工程學系（所）教授</td></tr>
+								<tr><th>1989 - 1990</th><td>美國貝爾實驗室博士後研究員</td></tr>
+								<tr><th>1988 - 1998</th><td>國立成功大學電機工程學系（所）副教授</td></tr>
+								<tr><th>1983 - 1988</th><td>國立成功大學電機工程學系（所）講師</td></tr>
+								<tr><th>1979 - 1981</th><td>國家中山科學研究院研究助理</td></tr>
+							</tbody>
+						</table>
+					
+						<p class="subtitle">學歷</p>
+						<table class="col" id="education">
+							<tbody>
+								<tr><th>1988</th><td>國立成功大學電機工程博士</td></tr>
+								<tr><th>1983</th><td>國立成功大學電機工程碩士</td></tr>
+								<tr><th>1977</th><td>國立成功大學電機工程學士</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col">
+						<img class="center-self" src="/img/professor.9b63273a.jpg" alt="professor's casual picture">
+					</div>
+				</div>
+			</div>
+			<div class="align-left col p-list-with-header" id="member-container">
+				<p class="center-self strong">實驗室成員</p>
+				<div class="align-left-text col">
+					<p class="subtitle">博士</p>
+					<div class="col" id="member-phd">
+						<p>114級：羅大郡。</p>
+					</div>
+				</div>
+				<br>
+				<div class="align-left-text col">
+					<p class="subtitle">碩士</p>
+					<div class="col" id="member-ms">
+						<p>113級：林以薰、林俊昇、林哲賢、林澤安、范紘維、閎碩星、劉子豪。</p>
+						<p>114級：林冠宏、許承瀚、黃俊凱、黃柏叡、鄭守維。</p>
+					</div>
+				</div>
+			</div>
+			<div class="align-left col p-list-with-header" id="graduated">
+				<p class="center-self strong">歷屆畢業生</p>
+				<div class="align-left-text col">
+					<p class="subtitle">博士</p>
+					<div class="col" id="graduated-phd">
+						<p>86級：麥樹翔。</p>
+						<p>88級：張晉源、梁廷宇。</p>
+						<p>89級：凃志堅、翁志昌、王俊堯。</p>
+						<p>92級：苗育本、莊宜璋。</p>
+						<p>93級：張志標。</p>
+						<p>95級：何日新、劉晏佐、柯志亨。</p>
+						<p>97級：黃祖基、施啟煌。</p>
+						<p>98級：林政翰。</p>
+						<p>99級：邱永昌、游允帥、蔡明峰。</p>
+						<p>100級：陳柏誠、梁浩銘。</p>
+						<p>102級：余佳育。</p>
+						<p>103級：郭俊儀。</p>
+						<p>104級：翁永聰、黃聖維。</p>
+						<p>109級：王俊又。</p>
+					</div>
+				</div>
+				<br>
+				<div class="align-left-text col">
+					<p class="subtitle">碩士</p>
+					<div class="col" id="graduated-ms">
+						<p>86級：林俊明、劉德成、林更天。</p>
+						<p>87級：周益成、劉伍華、楊國政、蔡育佳。</p>
+						<p>88級：廖政順、莊德源、林啟長。</p>
+						<p>89級：周智輝、楊沛庭、郭禮銘。</p>
+						<p>90級：廖繼鐘、林永俊、李俊祺、王振宇。</p>
+						<p>91級：陳冠霖、施啟煌、謝明錡、陳逸青。</p>
+						<p>92級：黃啟庭、邱基峰、廖鍾志、林博文。</p>
+						<p>93級：吳宗勳、邱永昌、郭哲宏、游允帥、王鐘漁、凃裕閔。</p>
+						<p>94級：王釋賢、吳俊毅、袁隆宇、賴文煌、梁浩銘。</p>
+						<p>95級：范珮欣、吳健豪、蔡明峰、黃圳柏、陳柏誠。</p>
+						<p>96級：賴柏仰、林群翔、呂佳旻、廖祥凱、郭俊儀、林家漢、陳惠珊。</p>
+						<p>97級：王東賢、林政誼、林益聖、邱柏程、郭俊男、陳韋宏、黃聖維、廖凰志。</p>
+						<p>98級：蔣致祥、王思諭、楊家豪、吳宗翰、丁柏均。</p>
+						<p>99級：羅本文、張倫遠、王昱淇、劉惟成、蘇晏良。</p>
+						<p>100級：陳緯澤、徐瑞興、黃韋滄、黃祥瑜。</p>
+						<p>101級：陳冠儒、張懷文、陳毅鴻、邱垂銘、呂學儒、謝聖鴻、邵鏡昇。</p>
+						<p>102級：林孟平、林俊良、黃冠傑、余家豪、林志勳、王柏清、陳思齊。</p>
+						<p>103級：吳偉誠、孫苙達、廖哲慶、蕭秉文、林欣達、黃昱棠。</p>
+						<p>104級：戴資力、詹鎧瑋、劉澤恩、邱建舜、曾學正、韋宇航。</p>
+						<p>105級：吳典陽、劉岱穎、徐晟旼、黃子恩、凌偉誠。</p>
+						<p>106級：林楙勛。</p>
+						<p>107級：黃睦林、陳品豪、張育恩、歐奇隴、卓峰民、滕韋呈。</p>
+						<p>108級：蘇志航、陳冠中、呂宗達、葉家宏。</p>
+						<p>109級：陳禹丞、陳威宇、羅大郡、程祺鈞。</p>
+						<p>110級：傅詩皓。</p>
+						<p>111級：吳佳恩、宋伯儒、林易叡、胡廷義、陶俊穎、羅紹瑄。</p>
+						<p>112級：吳宗諺、洪英祐、高百君、陳煒庭、楊善閎、鄭至崴、鄭信乙、羅大翔。</p>
+					</div>
+				</div>
+			</div>
+			<div class="col" id="publication">
+				<div id="publication-image">
+					<span class="strong">已發表的論文</span>
+				</div>
+				<a class="align-right-self text-link" href="https://pixabay.com/photos/laptop-code-programming-computer-2557586/">（圖片來源）</a>
+				<div class="align-left col">
+					<p class="subtitle">期刊（On Journal）</p>
+					<ol id="journal">
+						<li>Wang, C. Y., Ou, C. L., Zhang, Y. E., Cho, F. M., Chen, P. H., &amp; Shieh, C. K. (2018, November 9). <b>BotCluster: A session-based P2P botnet clustering system on NetFlow</b>. <i>Computer Networks, 145, 175-189</i>. <a href="https://doi.org/10.1016/j.comnet.2018.08.014">https://doi.org/10.1016/j.comnet.2018.08.014</a></li>
+						<li>Lin, C. H., Shieh, C. K., &amp; Huang, W. T. (2018, July 1). <b>Proportional bandwidth allocation with consideration of delay constraint over IEEE 802.11e-based wireless mesh networks</b>. <i>Wireless Networks, 24(5), 1575-1592</i>. <a href="https://doi.org/10.1007/s11276-016-1386-9">https://doi.org/10.1007/s11276-016-1386-9</a></li>
+						<li>Shieh, C. K., Huang, S. W., Sun, L. D., &amp; Chilamkurti, N. (2017, May 1). <b>A topology-based scaling mechanism for Apache Storm</b>. <i>International Journal of Network Management, 27(3), e1933</i>. <a href="https://doi.org/10.1002/nem.1933">https://doi.org/10.1002/nem.1933</a></li>
+						<li>Kuo, C. I., Shieh, C. K., &amp; Ke, C. H. (2017, January 10). <b>Performance modeling of FEC-based unequal error protection for H.264/AVC video streaming over burst-loss channels</b>. <i>International Journal of Communication Systems, 30(1)</i>. <a href="https://doi.org/10.1002/dac.2826">https://doi.org/10.1002/dac.2826</a></li>
+						<li>Huang, S. W., Yu, C. H., Shieh, C. K., &amp; Tsai, M. F. (2017). <b>A SPARQL query processing system using map-phase-multi join for big data in clouds</b>. <i>International Journal of Internet Protocol Technology, 10(3), 177-188</i>. <a href="https://doi.org/10.1504/IJIPT.2017.087555">https://doi.org/10.1504/IJIPT.2017.087555</a></li>
+						<li>Ke, C. H., Lin, C. H., Shieh, C. K., Hwang, W. S., &amp; Ziviani, A. (2017). <b>Evaluation of the Delivered MPEG Video Quality over Wireless Channels</b>. <i>J. Mobile Multimedia 3(1), 47-64</i>. <a href="https://dblp.org/rec/journals/jmm/KeLSHZ07.html">https://dblp.org/rec/journals/jmm/KeLSHZ07.html</a></li>
+						<li>Huang, T. C., Shieh, C. K., Chilamkurti, N., &amp; Rho, S. (2016, September 1). <b>Architecture for speeding up program execution with cloud technology</b>. <i>Journal of Supercomputing, 72(9), 3601-3618</i>. <a href="https://doi.org/10.1007/s11227-016-1715-x">https://doi.org/10.1007/s11227-016-1715-x</a></li>
+						<li>Weng, Y. T., Shih, C. H., &amp; Shieh, C. K. (2015, December 9). <b>Real-time video streaming using prediction-based forward error correction</b>. <i>Computer Networks, 92, 134-147</i>. <a href="https://doi.org/10.1016/j.comnet.2015.09.020">https://doi.org/10.1016/j.comnet.2015.09.020</a></li>
+						<li>Tsai, M. F., Wang, P. C., Shieh, C. K., Hwang, W. S., Chilamkurti, N., &amp; Lee, Y. S. (2015, June 1). <b>Improving positioning accuracy for VANET in real city environments</b>. <i>Journal of Supercomputing, 71(6), 1975-1995</i>. <a href="https://doi.org/10.1007/s11227-014-1215-9">https://doi.org/10.1007/s11227-014-1215-9</a></li>
+						<li>Tsai, M. F., Huang, S. W., Chiu, C. M., Sun, L. D., &amp; Shieh, C. K. (2015, May). <b>Cooperative Car Video Share and Search System</b>. <i>Applied Mechanics and Materials, vol. 764, 853-857</i>. <a href="https://doi.org/10.4028/www.scientific.net/AMM.764-765.853">https://doi.org/10.4028/www.scientific.net/AMM.764-765.853</a></li>
+						<li>Shih, C. H., Kuo, C. I., Shieh, C. K., &amp; Chou, Y. K. (2014, December 1). <b>Small-block interleaving for low-delay cross-packet forward error correction over burst-loss channels</b>. <i>International Journal of Communication Systems, 27(12), 3980-3995</i>. <a href="https://doi.org/10.1002/dac.2593">https://doi.org/10.1002/dac.2593</a></li>
+						<li>Kuo, C. I., Shih, C. H., Shieh, C. K., &amp; Ke, C. H. (2014, July). <b>Modeling and analysis of frame-level forward error correction for MPEG video over burst-loss channels</b>. <i>Applied Mathematics and Information Sciences, 8(4), 1845-1853</i>. <a href="https://doi.org/10.12785/amis/080442">https://doi.org/10.12785/amis/080442</a></li>
+						<li>Zao, J. K., Gan, T. T., You, C. K., Chung, C. E., Wang, Y. T., Méndez, S. J. R., Mullen, T., Yu, C., Kothe, C., Hsiao, C. T., Chu, S. L., Shieh, C. K., &amp; Jung, T. P. (2014, June 3). <b>Pervasive brain monitoring and data sharing based on multi-tier distributed computing and linked data technology</b>. <i>Frontiers in Human Neuroscience, 8(JUNE)</i>. <a href="https://doi.org/10.3389/fnhum.2014.00370">https://doi.org/10.3389/fnhum.2014.00370</a></li>
+						<li>Shieh, C. K., Yu, C. Y., &amp; Chang, J. M. (2013, December 9). <b>Efficiency-driven selection of bandwidth request mechanism in broadband wireless access networks</b>. <i>Computer Networks, 57(17), 3511-3521</i>. <a href="https://doi.org/10.1016/j.comnet.2013.08.004">https://doi.org/10.1016/j.comnet.2013.08.004</a></li>
+						<li>Shieh, C. K., Yu, C. Y., &amp; Ke, C. H. (2013, December 1). <b>Performance-Driven Robust Video Multicast over broadband wireless access networks</b>. <i>Journal of High Speed Networks, 19(4), 281-295</i>. <a href="https://doi.org/10.3233/JHS-130478">https://doi.org/10.3233/JHS-130478</a></li>
+						<li>Chang, J. B., Chen, P. C., Shieh, C. K., &amp; Hsieh, S. H. (2013, April). <b>An adaptive-grained consistency maintenance scheme for shared data on emergency and rescue applications</b>. <i>International Journal of Grid and High Performance Computing, 5(2), 54-71</i>. <a href="https://doi.org/10.4018/jghpc.2013040104">https://doi.org/10.4018/jghpc.2013040104</a></li>
+						<li>Lin, C. H., Shieh, C. K., &amp; Hwang, W. S. (2013, January 1). <b>An access point-based FEC mechanism for video transmission over wireless lans</b>. <i>IEEE Transactions on Multimedia, 15(1), 195-206</i>. <a href="https://doi.org/10.1109/TMM.2012.2225028">https://doi.org/10.1109/TMM.2012.2225028</a></li>
+						<li>Lin, C. H., Wang, Y. C., Shieh, C. K., &amp; Hwang, W. S. (2012, July 31). <b>An unequal error protection mechanism for video streaming over IEEE 802.11e WLANs</b>. <i>Computer Networks, 56(11), 2590-2599</i>. <a href="https://doi.org/10.1016/j.comnet.2012.04.004">https://doi.org/10.1016/j.comnet.2012.04.004</a></li>
+						<li>Tsai, M. F., Shieh, C. K., Huang, T. C., &amp; Deng, D. J. (2011, December 1). <b>Forward-looking forward error correction mechanism for video streaming over wireless networks</b>. <i>IEEE Systems Journal, 5(4), 460-473</i>. <a href="https://doi.org/10.1109/JSYST.2011.2165595">https://doi.org/10.1109/JSYST.2011.2165595</a></li>
+						<li>Lin, C. H., Chilamkurti, N. K., &amp; Shieh, C. K. (2011, September 1). <b>Performance modeling of MPEG-4 video streaming over IEEE 802.11 using distribution coordination function</b>. <i>Wireless Communications and Mobile Computing, 11(9), 1312-1322</i>. <a href="https://doi.org/10.1002/wcm.938">https://doi.org/10.1002/wcm.938</a></li>
+						<li>Tsai, M. F., Huang, T. C., Ke, C. H., Shieh, C. K., &amp; Hwang, W. S. (2011, July 1). <b>Adaptive hybrid error correction model for video streaming over wireless networks</b>. <i>Multimedia Systems, 17(4), 327-340</i>. <a href="https://doi.org/10.1007/s00530-010-0213-x">https://doi.org/10.1007/s00530-010-0213-x</a></li>
+						<li>Tsai, M. F., Chilamkurti, N., Shieh, C. K., &amp; Vinel, A. (2011, June). <b>MAC-level Forward Error Correction mechanism for minimum error recovery overhead and retransmission</b>. <i>Mathematical and Computer Modelling, 53(11-12), 11-12</i>. <a href="https://doi.org/10.1016/j.mcm.2010.05.019">https://doi.org/10.1016/j.mcm.2010.05.019</a></li>
+						<li>Yu, Y. S., Shieh, C. K., &amp; Wang, S. Y. (2011, April). <b>P2PVR: A playback offset aware multicast tree for on-demand video streaming with VCR functions</b>. <i>Journal of Systems Architecture, 57(4), 392-403</i>. <a href="https://doi.org/10.1016/j.sysarc.2011.03.001">https://doi.org/10.1016/j.sysarc.2011.03.001</a></li>
+						<li>Tsai, M. F., &amp; Shieh, C. K. (2011, February). <b>An adaptive packet and block length forward error correction for video streaming over wireless networks</b>. <i>Wireless Personal Communications, 56(3), 435-446</i>. <a href="https://doi.org/10.1007/s11277-010-9981-z">https://doi.org/10.1007/s11277-010-9981-z</a></li>
+						<li>Liang, H. M., Shieh, C. K., Huang, T. C., &amp; Ke, C. H. (2011, February). <b>The density based access method: A novel approach to optimizing run-time throughput for IEEE 802.11 DCF access control</b>. <i>Mathematical and Computer Modelling, 53(3-4), 443-457</i>. <a href="https://doi.org/10.1016/j.mcm.2010.03.029">https://doi.org/10.1016/j.mcm.2010.03.029</a></li>
+						<li>Chiu, Y. C., Shieh, C. K., Huang, T. C., &amp; Chu, K. C. (2011, January). <b>Data race avoidance and replay scheme for developing and debugging parallel programs on distributed shared memory systems</b>. <i>Parallel Computing, 37(1), 11-25</i>. <a href="https://doi.org/10.1016/j.parco.2010.09.002">https://doi.org/10.1016/j.parco.2010.09.002</a></li>
+						<li>Tsai, M. F., Huang, T. C., Shieh, C. K., &amp; Chu, K. C. (2010, December 3). <b>Dynamical combination of byte level and Sub-Packet level FEC in HARQ mechanism to reduce error recovery overhead on video streaming over wireless networks</b>. <i>Computer Networks, 54(17), 3049-3067</i>. <a href="https://doi.org/10.1016/j.comnet.2010.06.003">https://doi.org/10.1016/j.comnet.2010.06.003</a></li>
+						<li>Chen, P. C., Chang, J. B., Su, Y. L., &amp; Shieh, C. K. (2010, November 12). <b>On-demand data co-allocation with user-level cache for grids</b>. <i>Concurrency and Computation: Practice and Experience, 22(18), 2488-2513</i>. <a href="https://doi.org/10.1002/cpe.1587">https://doi.org/10.1002/cpe.1587</a></li>
+						<li>Huang, T. C., Shieh, C. K., &amp; Chu, K. C. (2010, October 1). <b>Client-side session splice approach, a novel approach to achieving seamless handoffs for multimedia applications in mobile computing</b>. <i>Wireless Networks, 16(7), 1885-1901</i>. <a href="https://doi.org/10.1007/s11276-009-0233-7">https://doi.org/10.1007/s11276-009-0233-7</a></li>
+						<li>Tsai, M. F., &amp; Shieh, C. K. (2010, September 17). <b>A network adaptive forward error correction mechanism to overcome burst packet losses for video streaming over wireless networks</b>. <i>Journal of Internet Technology, 11(4), 473-482</i>. <a href="https://www.airitilibrary.com/Publication/alDetailedMesh?docid=16079264-201007-201008210092-201008210092-473-481">https://www.airitilibrary.com/Publication/alDetailedMesh?docid=16079264-201007-201008210092-201008210092-473-481</a></li>
+						<li>Wang, J. X., Chiu, Y. C., &amp; Shieh, C. K. (2010, September 1). <b>Parallel H.264/AVC rate-distortion optimization baseline profile encoder on distributed share memory system</b>. <i>International Journal of Innovative Computing, Information and Control, 6(9), 4065-4075</i>. <a href="https://researchoutput.ncku.edu.tw/en/publications/parallel-h264avc-rate-distortion-optimization-baseline-profile-en">https://researchoutput.ncku.edu.tw/en/publications/parallel-h264avc-rate-distortion-optimization-baseline-profile-en</a></li>
+						<li>Tsai, M. F., Chilamkurti, N., &amp; Shieh, C. K. (2010, May). <b>Multi-path transmission control scheme combining bandwidth aggregation and packet scheduling for real-time streaming in multi-path environment</b>. <i>IET Communications, 4(6), 937-945</i>. <a href="https://doi.org/10.1049/iet-com.2009.0661">https://doi.org/10.1049/iet-com.2009.0661</a></li>
+						<li>Chen, P. C., Chang, J. B., Lin, Y. S., Shieh, C. K., &amp; Zhuang, Y. C. (2010, May). <b>Transparent on-demand co-allocation data access for grids</b>. <i>International Journal of Ad Hoc and Ubiquitous Computing, 5(4), 227-234</i>. <a href="https://doi.org/10.1504/IJAHUC.2010.032997">https://doi.org/10.1504/IJAHUC.2010.032997</a></li>
+						<li>Chen, P. C., Chang, J. B., Shieh, C. K., &amp; Zhuang, Y. C. (2010, April). <b>A DSM-based fragmented data sharing framework for grids</b>. <i>Future Generation Computer Systems, 26(4), 668-677</i>. <a href="https://doi.org/10.1016/j.future.2009.12.008">https://doi.org/10.1016/j.future.2009.12.008</a></li>
+						<li>Wang, J. X., Chiu, Y. C., &amp; Shieh, C. K. (2010, March). <b>On parallelizing H.264/AVC rate-distortion optimization baseline profile encoder</b>. <i>Journal of Information Science and Engineering, 26(2), 409-426</i>. <a href="https://citeseerx.ist.psu.edu/doc_view/pid/4cc3c0194f6beb04586e1787cd9728ba56af8a50">https://citeseerx.ist.psu.edu/doc_view/pid/4cc3c0194f6beb04586e1787cd9728ba56af8a50</a></li>
+						<li>Tsai, M. F., Shieh, C. K., &amp; Deng, D. J. (2010, March). <b>Sub-packet forward error correction mechanism for video streaming over wireless networks</b>. <i>Multimedia Tools and Applications, 47(1), 49-69</i>. <a href="https://doi.org/10.1007/s11042-009-0406-5">https://doi.org/10.1007/s11042-009-0406-5</a></li>
+						<li>Koumaras, H., Lin, C. H., Shieh, C. K., &amp; Kourtis, A. (2010, February). <b>A framework for end-to-end video quality prediction of MPEG video</b>. <i>Journal of Visual Communication and Image Representation, 21(2), 139-154</i>. <a href="https://doi.org/10.1016/j.jvcir.2009.07.005">https://doi.org/10.1016/j.jvcir.2009.07.005</a></li>
+						<li>Huang, T. C., Zeadally, S., &amp; Shieh, C. K. (2010, February 1). <b>A programmable network address translator: Design, implementation, and performance</b>. <i>ACM Transactions on Internet Technology, 10(1)</i>. <a href="https://doi.org/10.1145/1667067.1667070">https://doi.org/10.1145/1667067.1667070</a></li>
+						<li>Lin, C. H., Shieh, C. K., Ke, C. H., &amp; Zeadally, S. (2009, December 1). <b>An adaptive cross-layer mapping algorithm for MPEG-4 video transmission over IEEE 802.11e WLAN</b>. <i>Telecommunication Systems, 42(3-4), 223-234</i>. <a href="https://doi.org/10.1007/s11235-009-9182-9">https://doi.org/10.1007/s11235-009-9182-9</a></li>
+						<li>Liang, H. M., Zeadally, S., &amp; Shieh, C. K. (2009, December 1). <b>Optimizing channel access in wireless local area network environments with a new backoff approach</b>. <i>International Journal of Multimedia and Ubiquitous Engineering, 4(2), 35-48</i>. <a href="https://citeseerx.ist.psu.edu/doc_view/pid/41487f8dbd66b5eacc848f0c4d09fbe794a58cd3">https://citeseerx.ist.psu.edu/doc_view/pid/41487f8dbd66b5eacc848f0c4d09fbe794a58cd3</a></li>
+						<li>Tsai, M. F., Shieh, C. K., &amp; Deng, D. J. (2009, October 1). <b>An adaptive multi-hop forward error correction protection scheme for video streaming over wireless mesh networks</b>. <i>International Journal of Communication Systems, 22(10), 1297-1318</i>. <a href="https://doi.org/10.1002/dac.1032">https://doi.org/10.1002/dac.1032</a></li>
+						<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2009, September 8). <b>Just-in-time cache for capsule-based active networks</b>. <i>Computer Journal, 52(6), 671-689</i>. <a href="https://doi.org/10.1093/comjnl/bxp006">https://doi.org/10.1093/comjnl/bxp006</a></li>
+						<li>Chen, P. C., Chang, J. B., &amp; Shieh, C. K. (2009, June). <b>A progressive multi-layer resource reconfiguration framework for time-shared grid systems</b>. <i>Future Generation Computer Systems, 25(6), 662-673</i>. <a href="https://doi.org/10.1016/j.future.2009.01.002">https://doi.org/10.1016/j.future.2009.01.002</a></li>
+						<li>Huang, T. C., Zeadally, S., &amp; Shieh, C. K. (2009, May). <b>Design, implementation, and evaluation of a Programmable Bandwidth Aggregation System for home networks</b>. <i>Journal of Network and Computer Applications, 32(3), 741-759</i>. <a href="https://doi.org/10.1016/j.jnca.2008.06.003">https://doi.org/10.1016/j.jnca.2008.06.003</a></li>
+						<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2009, May 1). <b>Dual-Mode Execution Environment for active network</b>. <i>Journal of Systems Architecture, 55(5-6), 317-331</i>. <a href="https://doi.org/10.1016/j.sysarc.2009.03.003">https://doi.org/10.1016/j.sysarc.2009.03.003</a></li>
+						<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2009, February 1). <b>Network Application Programming Interface over Session Initiation Protocol, a novel approach to the global roaming environment</b>. <i>Computer Standards and Interfaces, 31(2), 406-419</i>. <a href="https://doi.org/10.1016/j.csi.2008.05.005">https://doi.org/10.1016/j.csi.2008.05.005</a></li>
+						<li>Chen, W. P., Ho, J. H., &amp; Shieh, C. K. (2009, February 1). <b>Novel MAC protocol with idle detection for all-optical WDM ring networks</b>. <i>Journal of Optical Networking, 8(2), 112-129</i>. <a href="https://doi.org/10.1364/JON.8.000112">https://doi.org/10.1364/JON.8.000112</a></li>
+						<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2009, January). <b>Bottleneck Active Node Detouring for capsule-based active network</b>. <i>Journal of Network and Computer Applications, 32(1), 1-30</i>. <a href="https://doi.org/10.1016/j.jnca.2008.04.005">https://doi.org/10.1016/j.jnca.2008.04.005</a></li>
+						<li>Ho, J. H., Chen, W. P., &amp; Shieh, C. K. (2008, December 15). <b>A study of the length effect of fiber delay line based on CSMA/CP optical packet switching</b>. <i>Information sciences, 178(24), 4656-4669</i>. <a href="https://doi.org/10.1016/j.ins.2008.08.014">https://doi.org/10.1016/j.ins.2008.08.014</a></li>
+						<li>Ho, J. H., Chen, W. P., &amp; Shieh, C. K. (2008, November 1). <b>Performance evaluation of CSMA/ID MAC protocol for IP over WDM ring networks</b>. <i>International Journal of Communication Systems, 21(11), 1155-1170</i>. <a href="https://doi.org/10.1002/dac.944">https://doi.org/10.1002/dac.944</a></li>
+						<li>Lin, C. H., Shieh, C. K., Chilamkurti, N. K., &amp; Hwang, W. S. (2008, September). <b>A RED-FEC mechanism for video transmission over WLANs</b>. <i>IEEE Transactions on Broadcasting, 54(3), 517-524</i>. <a href="https://doi.org/10.1109/TBC.2008.2001713">https://doi.org/10.1109/TBC.2008.2001713</a></li>
+						<li>Yu, C. Y., Ke, C. H., Chen, R. S., Shieh, C. K., &amp; Chilamkurti, N. K. (2008, May). <b>MyEvalvid_RTP: A evaluation framework for more realistic simulations of multimedia transmissions</b>. <i></i>. <a href="https://www.semanticscholar.org/paper/MyEvalvid_RTP%3A-a-Evaluation-Framework-for-More-of-Yu-Ke/dafe441f4c2b71968e4cec1ffb63deda80adf95a">https://www.semanticscholar.org/paper/MyEvalvid_RTP%3A-a-Evaluation-Framework-for-More-of-Yu-Ke/dafe441f4c2b71968e4cec1ffb63deda80adf95a</a></li>
+						<li>Shih, C. H., Shieh, C. K., &amp; Hwang, W. S. (2008, March 17). <b>A transparent loss recovery scheme using packet redirection for wireless video transmissions</b>. <i>Eurasip Journal on Advances in Signal Processing, 2008</i>. <a href="https://doi.org/10.1155/2008/437128">https://doi.org/10.1155/2008/437128</a></li>
+						<li>Ke, C. H., Shieh, C. K., &amp; Ziviani, A. (2008, March 1). <b>An evaluation framework for more realistic simulations of MPEG video transmission</b>. <i>Journal of Information Science and Engineering, 24(2), 425-440</i>. <a href="https://citeseerx.ist.psu.edu/doc_view/pid/7eab633d5e88bcf60a707d7bb1372dc64d6f0da9">https://citeseerx.ist.psu.edu/doc_view/pid/7eab633d5e88bcf60a707d7bb1372dc64d6f0da9</a></li>
+						<li>Shih, C. H., Shieh, C. K., Hwang, W. S., &amp; Ziviani, A. (2008, February). <b>An integrated rate control scheme for TCP-friendly MPEG-4 video transmission</b>. <i>Signal Processing: Image Communication, 23(2), 101-115</i>. <a href="https://doi.org/10.1016/j.image.2007.11.003">https://doi.org/10.1016/j.image.2007.11.003</a></li>
+						<li>Koumaras, H., Kourtis, A., Lin, C. H., &amp; Shieh, C. K. (2008). <b>End-to-end prediction model of video quality and decodable frame rate for MPEG broadcasting services</b>. <i></i>. <a href="https://www.semanticscholar.org/paper/End-to-End-Prediction-Model-of-Video-Quality-and-Koumaras-Kourtis/27ff677982b308a09156c91f7b6e3c43190ffeff">https://www.semanticscholar.org/paper/End-to-End-Prediction-Model-of-Video-Quality-and-Koumaras-Kourtis/27ff677982b308a09156c91f7b6e3c43190ffeff</a></li>
+						<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2008, January 1). <b>Tapster: Transparent proxy redirector for mobile computing</b>. <i>Journal of Information Science and Engineering, 24(1), 307-316</i>. <a href="https://researchoutput.ncku.edu.tw/en/publications/tapster-transparent-proxy-redirector-for-mobile-computing">https://researchoutput.ncku.edu.tw/en/publications/tapster-transparent-proxy-redirector-for-mobile-computing</a></li>
+						<li>Yu, C. Y., Ke, C. H., Chen, R. S., Shieh, C. K., Munir, B., &amp; Chilamkurti, N (2007, December 6). <b>MyEvalvid_RTP: A new simulation tool-set toward more realistic simulation</b>. <i>Future Generation Communication and Networking (FGCN 2007), 1, 90-93</i>. <a href="https://doi.org/10.1109/FGCN.2007.167">https://doi.org/10.1109/FGCN.2007.167</a></li>
+						<li>Liang, T. Y., Wu, C. Y., Shieh, C. K., &amp; Chang, J. B. (2007, May). <b>A grid-enabled software distributed shared memory system on a wide area network</b>. <i>Future Generation Computer Systems, 23(4), 547-557</i>. <a href="https://doi.org/10.1016/j.future.2006.10.003">https://doi.org/10.1016/j.future.2006.10.003</a></li>
+						<li>Ho, J. H., &amp; Shieh, C. K. (2007). <b>A priority-aware CSMA/CP MAC protocol for the all-optical IP-over-WDM metropolitan area ring network</b>. <i>Journal of High Speed Networks, 16(2), 157-173</i>. <a href="https://content.iospress.com/articles/journal-of-high-speed-networks/jhs314">https://content.iospress.com/articles/journal-of-high-speed-networks/jhs314</a></li>
+						<li>Ke, C. H., Lin, C. H., Shieh, C. K., Hwang, W. S., &amp; Ziviani, A. (2007). <b>Evaluation of streaming MPEG video over wireless channels</b>. <i>Journal of Mobile Multimedia, 3(1), 47-64</i>. <a href="https://journals.riverpublishers.com/index.php/JMM/article/view/4923">https://journals.riverpublishers.com/index.php/JMM/article/view/4923</a></li>
+						<li>Ke, C. H., Shieh, C. K., Kwang, W. S., &amp; Ziviani, A. (2007, January). <b>Improving video transmission on the Internet</b>. <i>IEEE Potentials, 26(1), 16-19</i>. <a href="https://doi.org/10.1109/MP.2007.343035">https://doi.org/10.1109/MP.2007.343035</a></li>
+						<li>Liu, Y. T., Liang, T. Y., &amp; Shieh, C. K. (2007, January 1). <b>Incorporating memory resource considerations into the workload distribution of software DSM systems</b>. <i>Journal of Information Science and Engineering, 23(1), 243-257</i>. <a href="https://www.airitilibrary.com/Publication/alDetailedMesh?docid=10162364-200701-23-1-243-257-a">https://www.airitilibrary.com/Publication/alDetailedMesh?docid=10162364-200701-23-1-243-257-a</a></li>
+						<li>Hwang, W. S., &amp; Shieh, C. K. (2007, January 1). <b>Modeling IP packets over WDM ring network with one tunable transmitter and multiple fixed receivers (TT-FRs)</b>. <i>Journal of Information Science and Engineering, 23(1), 259-270</i>. <a href="https://www.airitilibrary.com/Publication/alDetailedMesh?docid=10162364-200701-23-1-259-270-a">https://www.airitilibrary.com/Publication/alDetailedMesh?docid=10162364-200701-23-1-259-270-a</a></li>
+						<li>Liu, Y. T., &amp; Shieh, C. K. (2006, September). <b>Adapting workload distribution on software DSM clusters</b>. <i>Software - Practice and Experience, 36(11-12), 1133-1155</i>. <a href="https://doi.org/10.1002/spe.762">https://doi.org/10.1002/spe.762</a></li>
+						<li>Miao, Y. B., &amp; Shieh, C. K. (2006, August). <b>A transparent deployment method of RSVP-aware applications on UNIX</b>. <i>Computer Networks, 40(1), 45-56</i>. <a href="https://doi.org/10.1016/S1389-1286(02)00264-5">https://doi.org/10.1016/S1389-1286(02)00264-5</a></li>
+						<li>Chang, J. B., Shieh, C. K., &amp; Liang, T. Y. (2006, August). <b>A transparent distributed shared memory for clustered symmetric multiprocessors</b>. <i>Journal of Supercomputing, 37(2), 145-160</i>. <a href="https://doi.org/10.1007/s11227-006-5483-x">https://doi.org/10.1007/s11227-006-5483-x</a></li>
+						<li>Liang, T. Y., Wang, S. H., Shieh, C. K., Chang, L. I., &amp; Chang, L. I. (2006, July). <b>Design and implementation of the OpenMP programming interface on linux-based SMP clusters</b>. <i>Journal of Information Science and Engineering, 22(4), 785-798</i>. <a href="https://jise.iis.sinica.edu.tw/JISESearch/pages/View/PaperView.jsf?keyId=55_941">https://jise.iis.sinica.edu.tw/JISESearch/pages/View/PaperView.jsf?keyId=55_941</a></li>
+						<li>Zhuang, Y. C., Chang, J. B., Liang, T. Y., Shieh, C. K., &amp; Yang, L. T. (2006, July 1). <b>Finding a suitable system scale to optimize program performance on software DSM systems</b>. <i>Cluster Computing, 9(3), 223-236</i>. <a href="https://doi.org/10.1007/s10586-006-9738-3">https://doi.org/10.1007/s10586-006-9738-3</a></li>
+						<li>Zhuang, Y. C., Liang, T. Y., Shieh, C. K., &amp; Yang, L. T. (2006, June). <b>A group-based load balance scheme for software distributed shared memory systems</b>. <i>Journal of Supercomputing, 28(3), 295-309</i>. <a href="https://doi.org/10.1023/B:SUPE.0000022101.41799.cc">https://doi.org/10.1023/B:SUPE.0000022101.41799.cc</a></li>
+						<li>Ke, C. H., Shieh, C. K., Hwang, W. S., &amp; Ziviani, A. (2005, April 1). <b>A two markers system for improved MPEG video delivery in a DiffServ network</b>. <i>IEEE Communications Letters, 9(4), 381-383</i>. <a href="https://doi.org/10.1109/LCOMM.2005.1413641">https://doi.org/10.1109/LCOMM.2005.1413641</a></li>
+						<li>Liang, T. Y., Shieh, C. K., &amp; Li, J. Q. (2002, June). <b>Selecting threads for workload migration in software distributed shared memory systems</b>. <i>Parallel Computing, 28(6), 893-913</i>. <a href="https://doi.org/10.1016/S0167-8191(02)00071-6">https://doi.org/10.1016/S0167-8191(02)00071-6</a></li>
+						<li>Ke, C. H., Lin, C. H., Shieh, C. K., Hwang, W. S., &amp; Ziviana, A. (2002). <b>Modeling High Performance Multi-Channel Slotted Ring Networks</b>. <i>Networks, pp. 561-571</i>. <a href="https://doi.org/10.1142/9789812776730_0045">https://doi.org/10.1142/9789812776730_0045</a></li>
+						<li>Ueng, J. C., Shieh, C. K., &amp; Chang, J. B. (2001, March 15). <b>Proteus: An efficient runtime reconfigurable distributed shared memory system</b>. <i>Unknown Journal, 56(3), 247-260</i>. <a href="https://doi.org/10.1016/S0164-1212(00)00101-1">https://doi.org/10.1016/S0164-1212(00)00101-1</a></li>
+						<li>Liang, T. Y., Ueng, J. C., Shieh, C. K., &amp; Lee, J. Q. (2000, November 5). <b>Distinguishing sharing types to minimize communication in software distributed shared memory systems</b>. <i>Journal of Systems and Software, 55(1), 73-85</i>. <a href="https://doi.org/10.1016/S0164-1212(00)00055-8">https://doi.org/10.1016/S0164-1212(00)00055-8</a></li>
+						<li>Liang, T. Y., Shieh, C. K., &amp; Liu, D. C. (2000, September 25). <b>Scheduling loop applications in software distributed shared memory systems</b>. <i>IEICE Transactions on Information and Systems, E83-D(9), 1721-1730</i>. <a href="https://search.ieice.org/bin/summary.php?id=e83-d_9_1721">https://search.ieice.org/bin/summary.php?id=e83-d_9_1721</a></li>
+						<li>Wang, J. Y., Hwang, W. S., &amp; Shieh, C. K. (2000, July 15). <b>Performance evaluation of multiple-channel slotted ring networks with tunable transmitters and fixed receivers</b>. <i>Computer Communications, 23(13), 1281-1291</i>. <a href="https://doi.org/10.1016/S0140-3664(00)00201-2">https://doi.org/10.1016/S0140-3664(00)00201-2</a></li>
+						<li>Tu, C. C., Shieh, C. K., &amp; Cheng, H. (2000, May 16). <b>Algorithms for graph partitioning problems by means of eigenspace relaxations</b>. <i>European Journal of Operational Research, 123(1), 86-104</i>. <a href="https://doi.org/10.1016/S0377-2217(99)00060-0">https://doi.org/10.1016/S0377-2217(99)00060-0</a></li>
+						<li>Ueng, J. C., Shieh, C. K., Mac, S. C., Lai, A. C., &amp; Liang, T. Y. (1999, December 25). <b>Multi-threaded design for software distributed shared memory systems</b>. <i>IEICE Transactions on Information and Systems, E82-D(12), 1512-1523</i>. <a href="https://search.ieice.org/bin/summary.php?id=e82-d_12_1512">https://search.ieice.org/bin/summary.php?id=e82-d_12_1512</a></li>
+						<li>Shieh, C. K., &amp; Shieh, B. J. (1999, July 1). <b>Reducing file-related network traffic in TreadMarks via parallel file input/output</b>. <i>Journal of Information Science and Engineering, 15(4), 569-583</i>. <a href="https://citeseerx.ist.psu.edu/doc_view/pid/27f2873157fa8199b8084515e15c37fd21222c6e">https://citeseerx.ist.psu.edu/doc_view/pid/27f2873157fa8199b8084515e15c37fd21222c6e</a></li>
+						<li>Mac, S. C., Shieh, C. K., &amp; Chang, J. B. (1999, February). <b>Design and analysis of a parallel file system for distributed shared memory systems</b>. <i>Journal of Systems Architecture, 45(8), 603-617</i>. <a href="https://doi.org/10.1016/S1383-7621(98)00003-4">https://doi.org/10.1016/S1383-7621(98)00003-4</a></li>
+						<li>Ueng, J. C., Shieh, C. K., Mac Su-Cheong, L. A. I., &amp; Liang, T. Y. (1999). <b>iRMK 1.3 Real-Time Kernel Reference Manual, 1989</b>. <i>J. Inf. Sci. Eng., 15(4), 569-583</i>. <a href=""></a></li>
+						<li>Shieh, C. K., Ueng, J. C., Lai, A. C., &amp; Mac, S. C. (1998, December). <b>Design and implementation of cohesion</b>. <i>Journal of Information Science and Engineering, 14(4), 725-741</i>. <a href="https://jise.iis.sinica.edu.tw/JISESearch/pages/View/PaperView.jsf?keyId=99_1430">https://jise.iis.sinica.edu.tw/JISESearch/pages/View/PaperView.jsf?keyId=99_1430</a></li>
+					</ol>
+				</div>
+			</div>
+			<div class="align-left col">
+				<p class="subtitle">研討會（On Conference）</p>
+				<ol id="conference">
+					<li>Lo, T. C., Tao, C. Y., &amp; Shieh, C. K. (2022, November 7). <b>Performance Comparison of Containerized HBase Clusters on Kubernetes</b>. <i>2022 IEEE International Conference on Recent Advances in Systems Science and Engineering, RASSE 2022</i>. <a href="https://doi.org/10.1109/RASSE54974.2022.9989814">https://doi.org/10.1109/RASSE54974.2022.9989814</a></li>
+					<li>Wang, C. Y., Chen, Y. C., Fuh, S. H., Cho, F. M., Lo, T. C., Chang, J. B., &amp; Shieh, C. K. (2019, December 2). <b>A data compacting technique to reduce the NetFlow size in botnet detection with BotCluster</b>. <i>6th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies, BDCAT 2019 (pp. 81-84)</i>. <a href="https://doi.org/10.1145/3365109.3368778">https://doi.org/10.1145/3365109.3368778</a></li>
+					<li>Wang, C. Y., Yap, J. H., Chen, K. C., &amp; Shieh, C. K. (2018, December 20). <b>The Impact of the Observation Period for Detecting P2P Botnets on the Real Traffic Using BotCluster</b>. <i>23rd International Computer Symposium, ICS 2018 (vol. 1013, pp. 82-92)</i>. <a href="https://doi.org/10.1007/978-981-13-9190-3_8">https://doi.org/10.1007/978-981-13-9190-3_8</a></li>
+					<li>Huang, T. C., Chu, K. C., Lin, J. H., &amp; Shieh, C. K. (2018, November 1). <b>Workload Alleviation Scheduling Framework to Alleviate Negative Performance Impact of Intermediate Data Skew in Small-Scale MapReduce Cloud</b>. <i>2018 International Conference on System Science and Engineering, ICSSE 2018</i>. <a href="https://doi.org/10.1109/ICSSE.2018.8520003">https://doi.org/10.1109/ICSSE.2018.8520003</a></li>
+					<li>Huang, T. C., Chu, K. C., Huang, G. H., &amp; Shieh, C. K. (2018, July 6). <b>Distributed control framework for mapreduce cloud on cloud computing</b>. <i>2018 IEEE/IFIP Network Operations and Management Symposium, NOMS 2018 (pp. 1-4)</i>. <a href="https://doi.org/10.1109/NOMS.2018.8406180">https://doi.org/10.1109/NOMS.2018.8406180</a></li>
+					<li>Huang, T. C., Chu, K. C., Huang, G. H., &amp; Shieh, C. K. (2018, March 27). <b>Computation capability deduction architecture for MapReduce on cloud computing</b>. <i>18th International Conference on Parallel and Distributed Computing, Applications and Technologies, PDCAT 2017 (vol. 2017-December, pp. 368-375)</i>. <a href="https://doi.org/10.1109/PDCAT.2017.00067">https://doi.org/10.1109/PDCAT.2017.00067</a></li>
+					<li>Huang, T. C., Chu, K. C., Huang, G. H., &amp; Shieh, C. K. (2017, May 5). <b>Smart partitioning mechanism for dealing with intermediate data skew in reduce task on cloud computing</b>. <i>31st IEEE International Conference on Advanced Information Networking and Applications, AINA 2017 (pp. 819-826)</i>. <a href="https://doi.org/10.1109/AINA.2017.44">https://doi.org/10.1109/AINA.2017.44</a></li>
+					<li>Huang, T. C., Chu, K. C., &amp; Shieh, C. K. (2017, February 16). <b>Idempotent Task Cache System for Handling Intermediate Data Skew in MapReduce on Cloud Computing</b>. <i>2016 International Computer Symposium, ICS 2016 (pp. 531-536)</i>. <a href="https://doi.org/10.1109/ICS.2016.0111">https://doi.org/10.1109/ICS.2016.0111</a></li>
+					<li>Huang, T. C., Chu, K. C., Zeng, X. Y., &amp; Shieh, C. K. (2016, August 16). <b>CURT MapReduce: Caching and utilizing results of tasks for mapreduce on cloud computing</b>. <i>2nd IEEE International Conference on Multimedia Big Data, BigMM 2016 (pp. 149-154)</i>. <a href="https://doi.org/10.1109/BigMM.2016.10">https://doi.org/10.1109/BigMM.2016.10</a></li>
+					<li>Weng, Y. T., Shih, C. H., &amp; Shieh, C. K. (2016, July 25). <b>ICST: Low-delay forward error correction scheme with interleaved coding and sequential transmission</b>. <i>3rd IEEE International Conference on Consumer Electronics-Taiwan, ICCE-TW 2016</i>. <a href="https://doi.org/10.1109/ICCE-TW.2016.7520897">https://doi.org/10.1109/ICCE-TW.2016.7520897</a></li>
+					<li>Huang, T. C., Chu, K. C., Chen, J. R., &amp; Shieh, C. K. (2016, July 12). <b>Providing caches for reduce tasks in a MapReduce cloud</b>. <i>2016 IEEE International Conference on Big Data Analysis, ICBDA 2016</i>. <a href="https://doi.org/10.1109/ICBDA.2016.7509834">https://doi.org/10.1109/ICBDA.2016.7509834</a></li>
+					<li>Wang, C. Y., Huang, T. E., Huang, Y. T., Chang, J. B., &amp; Shieh, C. K. (2015, December 19). <b>An Inter-Framework Cache for Diverse DataIntensive Computing Environments</b>. <i>2015 IEEE International Conference on Smart City (pp. 944-949)</i>. <a href="https://doi.org/10.1109/SmartCity.2015.192">https://doi.org/10.1109/SmartCity.2015.192</a></li>
+					<li>Huang, S. W., Shieh, C. K., Liao, C. C., Chiu, C. M., &amp; Chen, L. W. (2015, November 19). <b>A cloud-based efficient on-line analytical processing system with inverted data model</b>. <i>11th EAI International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness, QSHINE 2015 (pp. 341-345)</i>. <a href="https://doi.org/10.4108/eai.19-8-2015.2261409">https://doi.org/10.4108/eai.19-8-2015.2261409</a></li>
+					<li>Huang, T. C., Chu, K. C., Shieh, C. K., &amp; Tsai, M. F. (2015, October 7). <b>Speed-based load balancer for scheduling reduce tasks to process intermediate data of MapReduce applications on cloud computing</b>. <i>ASE BigData and SocialInformatics, ASE BD and SI 2015</i>. <a href="https://doi.org/10.1145/2818869.2818880">https://doi.org/10.1145/2818869.2818880</a></li>
+					<li>Lin, C. H., Shieh, C. K., &amp; Wang, J. J. (2015, August 7). <b>R-SPOFTR: Relieving single point of failure in Tree Routing to prolong sensor system lifetime</b>. <i>7th International Conference on Ubiquitous and Future Networks, ICUFN 2015 (vol. 2015-August, pp. 283-288)</i>. <a href="https://doi.org/10.1109/ICUFN.2015.7182551">https://doi.org/10.1109/ICUFN.2015.7182551</a></li>
+					<li>Huang, S. W., Yu, C. H., Shieh, C. K., &amp; Tsai, M. F. (2015, June 11). <b>Efficient and Scalable SPARQL Query Processing with Transformed Table</b>. <i>2015 IEEE Wireless Communications and Networking Conference Workshops, WCNCW 2015 (pp. 103-106)</i>. <a href="https://doi.org/10.1109/WCNCW.2015.7122537">https://doi.org/10.1109/WCNCW.2015.7122537</a></li>
+					<li>Chiu, C. M., Huang, S. W., Huang, T. C., Shieh, C. K., &amp; Chen, L. W. (2015, January 1). <b>A task scheduling policy for heterogeneous MapReduce cluster</b>. <i>International Computer Symposium, ICS 2014 (vol. 274, pp. 420-429)</i>. <a href="https://doi.org/10.3233/978-1-61499-484-8-420">https://doi.org/10.3233/978-1-61499-484-8-420</a></li>
+					<li>Tseng, C. W., Chen, S. J., Yang, Y. T., Chou, L. D., Shieh, C. K., &amp; Huang, S. W. (2014, December 23). <b>IPv6 operations and deployment scenarios over SDN</b>. <i>16th Asia-Pacific Network Operations and Management Symposium, APNOMS 2014</i>. <a href="https://doi.org/10.1109/APNOMS.2014.6996530">https://doi.org/10.1109/APNOMS.2014.6996530</a></li>
+					<li>Hsiao, P. W., Kuo, C. I., Shieh, C. K., Hwang, W. S., &amp; Chen, Y. S. (2014, October 22). <b>An analysis modeling of frame-level forward error correction for H.264/AVC over burst-loss channels</b>. <i>2014 4th International Conference on Wireless Communications, Vehicular Technology, Information Theory and Aerospace and Electronic Systems, VITAE 2014 - Co-located with Global Wireless Summit</i>. <a href="https://doi.org/10.1109/VITAE.2014.6934502">https://doi.org/10.1109/VITAE.2014.6934502</a></li>
+					<li>Wang, C. Y., Tai, T. L., Huang, K. C., Liu, T. E., &amp; Shieh, C. K. (2014, September 24). <b>FedLoop: Looping on federated MapReduce</b>. <i>13th IEEE International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom 2014 (pp. 755-762)</i>. <a href="https://doi.org/10.1109/TrustCom.2014.99">https://doi.org/10.1109/TrustCom.2014.99</a></li>
+					<li>Wang, C. Y., Tai, T. L., Shu, J. S., Chang, J. B., &amp; Shieh, C. K. (2014, June 24). <b>Federated MapReduce to transparently run applications on multicluster environment</b>. <i>3rd IEEE International Congress on Big Data, BigData Congress 2014 (pp. 296-303)</i>. <a href="https://doi.org/10.1109/BigData.Congress.2014.50">https://doi.org/10.1109/BigData.Congress.2014.50</a></li>
+					<li>Huang, T. C., Shieh, C. K., Huang, S. W., &amp; Liang, T. Y. (2014, May 13). <b>Automatic self-suspended task for a mapreduce system on cloud computing</b>. <i>Trends and Applications in Knowledge Discovery and Data Mining, PAKDD 2014, Lecture Notes in Computer Science (vol. 8643, pp. 257-268)</i>. <a href="https://doi.org/10.1007/978-3-319-13186-3_25">https://doi.org/10.1007/978-3-319-13186-3_25</a></li>
+					<li>Huang, T. C., Chu, K. C., &amp; Shieh, C. K. (2014, January 1). <b>MapReduce application profiler</b>. <i>Advanced Technologies, Embedded and Multimedia for Human-Centric Computing, HumanCom and EMC 2013 (vol. 260 LNEE, pp. 741-749)</i>. <a href="https://doi.org/10.1007/978-94-007-7262-5_84">https://doi.org/10.1007/978-94-007-7262-5_84</a></li>
+					<li>Huang, T. C., Chu, K. C., Shieh, C. K., &amp; Huang, S. W. (2014, January 1). <b>Scanning files for signatures with a MapReduce system on cloud computing</b>. <i>2nd International Symposium on Computer, Consumer and Control, IS3C 2014 (pp. 248-251)</i>. <a href="https://doi.org/10.1109/IS3C.2014.73">https://doi.org/10.1109/IS3C.2014.73</a></li>
+					<li>Huang, S. W., Shieh, C. K., Lyu, S. R., Huang, T. C., Chen, C. S., &amp; Tsai, M. F. (2013, November 20). <b>A simple cluster-scaling policy for MapReduce clouds</b>. <i>2013 International Symposium on Wireless and Pervasive Computing, ISWPC 2013</i>. <a href="https://doi.org/10.1109/ISWPC.2013.6707441">https://doi.org/10.1109/ISWPC.2013.6707441</a></li>
+					<li>Lin, C. H., Zhang, H. W., Shieh, C. K., &amp; Hwang, W. S. (2013, May 13). <b>Performance analysis of MPEG-4 video stream with FEC error recovery over IEEE 802.11 DCF WLANs</b>. <i>2013 11th International Symposium and Workshops on Modeling and Optimization in Mobile, Ad Hoc and Wireless Networks, WiOpt 2013 (pp. 634-640)</i>. <a href="https://ieeexplore.ieee.org/abstract/document/6576414/">https://ieeexplore.ieee.org/abstract/document/6576414/</a></li>
+					<li>Kuo, C. I., Wang, P. C., Lin, C. H., Shieh, C. K. &amp; Tsai, M. F. (2012, December 14). <b>Implementation of radar map using gps in vehicular networks</b>. <i>Advances in Intelligent Systems and Applications -Volume 1 Proceedings of the International Computer Symposium ICS 2012, pp. 663-672</i>. <a href="https://doi.org/10.1007/978-3-642-35452-6_67">https://doi.org/10.1007/978-3-642-35452-6_67</a></li>
+					<li>Yu, C. Y., Lin, C. H., &amp; Shieh, C. K. (2012, December 1). <b>Weight-based video multicast over broadband wireless access networks</b>. <i>12th International Symposium on Pervasive Systems, Algorithms, and Networks, I-SPAN 2012 (pp. 162-168)</i>. <a href="https://doi.org/10.1109/I-SPAN.2012.30">https://doi.org/10.1109/I-SPAN.2012.30</a></li>
+					<li>Chou, L. D., Yang, Y. T., Chen, Y. S., Chang, T. C., Shieh, C. K., &amp; Huang, S. W. (2012, September 25). <b>Implementation of virtual network management system with SLA on NetFPGA</b>. <i>14th Asia-Pacific Network Operations and Management Symposium: "Management in the Big Data and IoT Era", APNOMS 2012</i>. <a href="https://doi.org/10.1109/APNOMS.2012.6356094">https://doi.org/10.1109/APNOMS.2012.6356094</a></li>
+					<li>Chou, L. D., Yang, Y. T., Chang, W. P., Chen, Y. S., Chang, T. C., Shieh, C. K., &amp; Huang, S. W. (2011, December 15). <b>Hierarchical management system of virtual networks on NetFPGA</b>. <i>13th Asia-Pacific Network Operations and Management Symposium: Managing Clouds, Smart Networks and Services, APNOMS 2011</i>. <a href="https://doi.org/10.1109/APNOMS.2011.6076962">https://doi.org/10.1109/APNOMS.2011.6076962</a></li>
+					<li>Mutka, M., Shieh, C. K., &amp; Liu, Y. (2011, December 7). <b>Message from the general and program co-chairs</b>. <i>Proceedings - 2011 17th IEEE International Conference on Parallel and Distributed Systems, ICPADS 2011 (p. 19)</i>. <a href="https://doi.org/10.1109/ICPADS.2011.81">https://doi.org/10.1109/ICPADS.2011.81</a></li>
+					<li>Wu, J. D., Hwang, W. S., &amp; Shieh, C. K. (2011, December 1). <b>Dynamic resource allocation of IEEE 802.16j networks with directional antenna</b>. <i>2011 17th IEEE International Conference on Parallel and Distributed Systems, ICPADS 2011 (pp. 528-533)</i>. <a href="https://doi.org/10.1109/ICPADS.2011.54">https://doi.org/10.1109/ICPADS.2011.54</a></li>
+					<li>Huang, S. W., Huang, T. C., Lyu, S. R., Shieh, C. K., &amp; Chou, Y. S. (2011, December 1). <b>Improving speculative execution performance with coworker for cloud computing</b>. <i>2011 17th IEEE International Conference on Parallel and Distributed Systems, ICPADS 2011 (pp. 1004-1009)</i>. <a href="https://doi.org/10.1109/ICPADS.2011.72">https://doi.org/10.1109/ICPADS.2011.72</a></li>
+					<li>Kuo, C. I., Shih, C. H., Shieh, C. K., &amp; Hwang, W. S. (2011, December 1). <b>Prediction-based loss recovery for frame-level streaming video</b>. <i>2011 IEEE GLOBECOM Workshops, GC Wkshps 2011 (pp. 72-76)</i>. <a href="https://doi.org/10.1109/GLOCOMW.2011.6162550">https://doi.org/10.1109/GLOCOMW.2011.6162550</a></li>
+					<li>Chou, L. D., Yang, Y. T., Chang, W. P., Chang, T. C., Hong, Y. M., Shieh, C. K., &amp; Huang, S. W. (2011, December 1). <b>The implementation of multilayer virtual network management system on NetFPGA</b>. <i>2011 17th IEEE International Conference on Parallel and Distributed Systems, ICPADS 2011 (pp. 988-991)</i>. <a href="https://doi.org/10.1109/ICPADS.2011.135">https://doi.org/10.1109/ICPADS.2011.135</a></li>
+					<li>Weng, Y. T., Shieh, C. K., &amp; Miao, Y. B. (2011, December 1). <b>Using P2P networks to repair packet losses in Digital Video Broadcasting systems</b>. <i>2011 17th IEEE International Conference on Parallel and Distributed Systems, ICPADS 2011 (pp. 765-769)</i>. <a href="https://doi.org/10.1109/ICPADS.2011.146">https://doi.org/10.1109/ICPADS.2011.146</a></li>
+					<li>Lin, Y. C., Lin, C. H., Hwang, W. S., &amp; Shieh, C. K. (2011, August 22). <b>FPOC: A Channel Assignment Strategy Using Four Partially Overlapping Channels in WMNs</b>. <i>IEEE Asia Pacific Wireless Communication Symposium, APWCS, pp.22-23</i>. <a href="http://wshnt.kuas.edu.tw/MyPapers/FPOC%20A%20Channel%20Assignment%20Strategy%20Using%20Four%20Partially%20Overlapping%20Channels%20in%20WMNs.pdf">http://wshnt.kuas.edu.tw/MyPapers/FPOC%20A%20Channel%20Assignment%20Strategy%20Using%20Four%20Partially%20Overlapping%20Channels%20in%20WMNs.pdf</a></li>
+					<li>Chen, P. C., Su, Y. L., &amp; Shieh, C. K. (2011, July 14). <b>TSorter: A conflict-aware transaction processing system for clouds</b>. <i>6th International Conference on Future Information Technology, FutureTech 2011 (vol. 184 CCIS, pp. 67-74)</i>. <a href="https://doi.org/10.1007/978-3-642-22333-4_8">https://doi.org/10.1007/978-3-642-22333-4_8</a></li>
+					<li>Tsai, M. F., Shih, C. H., Shieh, C. K., &amp; Hwang, W. S. (2011, May 23). <b>Multirate-aware Concurrent Multipath Transmission mechanism</b>. <i>6th International Symposium on Wireless and Pervasive Computing, ISWPC 2011</i>. <a href="https://doi.org/10.1109/ISWPC.2011.5751305">https://doi.org/10.1109/ISWPC.2011.5751305</a></li>
+					<li>Kuo, C. I., Shih, C. H., Shieh, C. K., &amp; Hwang, W. S. (2010, December 28). <b>A fast and efficient FEC enhancement scheme for delay-sensitive video transmissions</b>. <i>6th International Conference on Intelligent Information Hiding and Multimedia Signal Processing, IIHMSP 2010 (pp. 252-255)</i>. <a href="https://doi.org/10.1109/IIHMSP.2010.70">https://doi.org/10.1109/IIHMSP.2010.70</a></li>
+					<li>Yu, N. S., &amp; Shieh, C. K. (2010, December 16). <b>Increasing service availability for resource constrained nodes in peer-to-peer communication systems</b>. <i>2010 International Computer Symposium, ICS 2010 (pp. 789-792)</i>. <a href="https://doi.org/10.1109/COMPSYM.2010.5685407">https://doi.org/10.1109/COMPSYM.2010.5685407</a></li>
+					<li>Chao, H. C., Shieh, C. K., &amp; Huang, Y. M. (2010, December 16). <b>Message from conference chairs</b>. <i>ICS 2010 - International Computer Symposium</i>. <a href="https://doi.org/10.1109/COMPSYM.2010.5685357">https://doi.org/10.1109/COMPSYM.2010.5685357</a></li>
+					<li>Fang, P. H., Wang, Y. L., Chen, Z. H., &amp; Shieh, C. K. (2010, December 1). <b>An open electronic system level multi-SPARC virtual platform and its toolchain</b>. <i>2010 International Computer Symposium, ICS 2010 (pp. 478-482)</i>. <a href="https://doi.org/10.1109/COMPSYM.2010.5685464">https://doi.org/10.1109/COMPSYM.2010.5685464</a></li>
+					<li>Chen, Z. H., Chen, T. C., Chien, J. Y., &amp; Shieh, C. K. (2010, September 6). <b>Exploiting parallelism of MPEG-4 decoder with dataflow programming on multicore processor</b>. <i>International Symposium on Parallel and Distributed Processing with Applications, ISPA 2010 (pp. 367-373)</i>. <a href="https://doi.org/10.1109/ISPA.2010.9">https://doi.org/10.1109/ISPA.2010.9</a></li>
+					<li>Wang, Y. C., Lin, C. H., &amp; Shieh, C. K. (2010, August 3). <b>Cross-layer unequal error protection mechanism with an interleaved strategy for video streaming over wireless networks</b>. <i>IEEE Wireless Communications and Networking Conference 2010, WCNC 2010</i>. <a href="https://doi.org/10.1109/WCNC.2010.5506499">https://doi.org/10.1109/WCNC.2010.5506499</a></li>
+					<li>Tsai, M. F., &amp; Shieh, C. K. (2010, July 26). <b>Multipath transmission with forward error correction mechanism for delay-sensitive video communications</b>. <i>24th IEEE International Conference on Advanced Information Networking and Applications Workshops, WAINA 2010 (pp. 810-813)</i>. <a href="https://doi.org/10.1109/WAINA.2010.142">https://doi.org/10.1109/WAINA.2010.142</a></li>
+					<li>Tsai, M. F., Chilamkurti, N., &amp; Shieh, C. K. (2010, July 14). <b>Concurrent multipath transmission with adaptive forward error correction mechanism for delay-sensitive video streaming in wireless home networks</b>. <i>5th International Conference on Future Information Technology, FutureTech 2010</i>. <a href="https://doi.org/10.1109/FUTURETECH.2010.5482739">https://doi.org/10.1109/FUTURETECH.2010.5482739</a></li>
+					<li>Chen, P. C., Su, Y. L., &amp; Shieh, C. K. (2010, June 25). <b>Variable-sized map and locality-aware reduce on public-resource grids</b>. <i>5th International Conference on Advances in Grid and Pervasive Computing, GPC 2010 (vol. 6104 LNCS, pp. 234-243)</i>. <a href="https://doi.org/10.1007/978-3-642-13067-0_27">https://doi.org/10.1007/978-3-642-13067-0_27</a></li>
+					<li>Liang, H. M., Huang, W. C., Shieh, C. K., &amp; Hwang, W. S. (2010, May 5). <b>Dual-mode access scheme for solving asymmetric link phenomenon in IEEE WLAN</b>. <i>2010 International Symposium on Computer, Communication, Control and Automation, 3CA 2010 (vol. 2, pp. 526-529)</i>. <a href="https://doi.org/10.1109/3CA.2010.5533697">https://doi.org/10.1109/3CA.2010.5533697</a></li>
+					<li>Yu, N. S., Shieh, C. K., &amp; Miao, Y. B. (2009, December 15). <b>A SIP-based P2P multicast streaming</b>. <i>2009 IEEE 9th Malaysia International Conference on Communications with a Special Workshop on Digital TV Contents, MICC 2009 (pp. 524-529)</i>. <a href="https://doi.org/10.1109/MICC.2009.5431442">https://doi.org/10.1109/MICC.2009.5431442</a></li>
+					<li>Huang, S. W., Chiu, Y. C., Chen, Z. H., Shieh, C. K., &amp; Liang, T. Y. (2009, December 3). <b>A region-based allocation approach for page-based scratch-pad memory in embedded systems</b>. <i>7th IEEE/IFIP International Conference on Embedded and Ubiquitous Computing, EUC 2009 (vol. 2, pp. 9-16)</i>. <a href="https://doi.org/10.1109/CSE.2009.350">https://doi.org/10.1109/CSE.2009.350</a></li>
+					<li>Tsai, M. F., Ke, C. H., &amp; Shieh, C. K. (2009, December 1). <b>Path dependent adaptive forward error correction with multipath interleaving control scheme for video streaming over wireless networks</b>. <i>IIH-MSP 2009 - 2009 5th International Conference on Intelligent Information Hiding and Multimedia Signal Processing (pp. 1236-1239)</i>. <a href="https://doi.org/10.1109/IIH-MSP.2009.330">https://doi.org/10.1109/IIH-MSP.2009.330</a></li>
+					<li>Chen, P. C., Chang, J. B., Zhuang, Y. C., Shieh, C. K., &amp; Liangd, T. Y. (2009, October 13). <b>Memory-mapped file approach for on-demand data co-allocation on grids</b>. <i>2009 9th IEEE/ACM International Symposium on Cluster Computing and the Grid, CCGRID 2009 (pp. 300-307)</i>. <a href="https://doi.org/10.1109/CCGRID.2009.22">https://doi.org/10.1109/CCGRID.2009.22</a></li>
+					<li>Chen, P. C., Chang, J. B., Yang, J. H., &amp; Shieh, C. K. (2009, May 26). <b>Spigot: Fragment-level file sharing and consistency on grids</b>. <i>2009 International Conference on Advanced Information Networking and Applications, AINA 2009 (pp. 884-891)</i>. <a href="https://doi.org/10.1109/AINA.2009.31">https://doi.org/10.1109/AINA.2009.31</a></li>
+					<li>Ting, P. C., Yu, C. Y., Chilamkurti, N., &amp; Shieh, C. K. (2009, February 11). <b>A proposed RED-based scheduling scheme for QoS in WiMAX networks</b>. <i>2009 4th International Symposium on Wireless and Pervasive Computing, ISWPC 2009</i>. <a href="https://doi.org/10.1109/ISWPC.2009.4800558">https://doi.org/10.1109/ISWPC.2009.4800558</a></li>
+					<li>Yu, Y. S., Shieh, C. K., &amp; Miao, Y. B. (2009, January 18). <b>P2PVR: A networked VCR service for live multimedia streaming</b>. <i>1st International Symposium on Computer Network and Multimedia Technology, CNMT 2009, pp. 1-4</i>. <a href="https://doi.org/10.1109/CNMT.2009.5374562">https://doi.org/10.1109/CNMT.2009.5374562</a></li>
+					<li>Tsai, M. F., &amp; Shieh, C. K. (2008, December 1). <b>A novel multi-path forward error correction control scheme with path interleaving for video transmissions</b>. <i>2008 International Conference on Telecommunications, ICT</i>. <a href="https://doi.org/10.1109/ICTEL.2008.4652701">https://doi.org/10.1109/ICTEL.2008.4652701</a></li>
+					<li>Yu, C. Y., Zeadally, S., &amp; Shieh, C. K. (2008, December 1). <b>An enhanced uplink scheduling scheme for IEEE 802.16 metropolitan area networks</b>. <i>International Conference on Mobile Technology, Applications, and Systems, Mobility'08</i>. <a href="https://doi.org/10.1145/1506270.1506390">https://doi.org/10.1145/1506270.1506390</a></li>
+					<li>Liang, H. M., Zeadally, S., &amp; Shieh, C. K. (2008, November 28). <b>A novel pause count backoff algorithm for channel access in IEEE 802.11 based wireless LANs</b>. <i>2008 International Symposium on Computer Science and its Applications, CSA 2008 (pp. 163-168)</i>. <a href="https://doi.org/10.1109/CSA.2008.38">https://doi.org/10.1109/CSA.2008.38</a></li>
+					<li>Tsai, M. F., Chilamkurti, N. K., Zeadally, S., Shieh, C. K., &amp; El-Sayed, H. (2008, October 21). <b>An efficient multi-hop FEC scheme for wireless mesh networks</b>. <i>2008 IEEE International Symposium on Wireless Communication Systems, ISWCS'08 (pp. 663-666)</i>. <a href="https://doi.org/10.1109/ISWCS.2008.4726139">https://doi.org/10.1109/ISWCS.2008.4726139</a></li>
+					<li>Lin, C. H., Shieh, C. K., &amp; Ke, C. H. (2008, October 21). <b>An exponential-linear backoff algorithm for contention-based wireless networksan exponential-linear backoff algorithm for contention-based wireless networks</b>. <i>International Conference on Mobile Technology, Applications, and Systems, Mobility'08</i>. <a href="https://doi.org/10.1145/1506270.1506324">https://doi.org/10.1145/1506270.1506324</a></li>
+					<li>Tsai, M. F., Chilamkurti, N. K., &amp; Shieh, C. K. (2008, October 6). <b>A concurrent multi-path transmission control scheme to reduce packet reordering latency at the receiver</b>. <i>2008 International Conference on Advanced Technologies for Communications, ATC 2008 (pp. 437-440)</i>. <a href="https://doi.org/10.1109/ATC.2008.4760617">https://doi.org/10.1109/ATC.2008.4760617</a></li>
+					<li>Tsai, M. F., Ke, C. H., Wu, T. H., Shieh, C. K., &amp; Hwang, W. S. (2008, September 10). <b>Burst-aware adaptive forward error correction in video streaming over wireless networks</b>. <i>10th IEEE International Conference on High Performance Computing and Communications, HPCC 2008 (pp. 625-628)</i>. <a href="https://doi.org/10.1109/HPCC.2008.89">https://doi.org/10.1109/HPCC.2008.89</a></li>
+					<li>Chen, P. G., Lin, C. I., Huang, S. W., Chang, J. B., Shieh, C. K., &amp; Liang, T. Y. (2008, March 25). <b>A performance study of virtual machine migration vs. thread migration for grid systems</b>. <i>22nd International Conference on Advanced Information Networking and Applications Workshops/Symposia, AINA 2008 (pp. 86-91)</i>. <a href="https://doi.org/10.1109/WAINA.2008.28">https://doi.org/10.1109/WAINA.2008.28</a></li>
+					<li>Tsai, M. F., Kuo, C. Y., Kuo, C. N., &amp; Shieh, C. K. (2007, December 20). <b>Multi-path forward error correction control scheme with path interleaving</b>. <i>2007 National Computer Symposium (NCS)</i>. <a href="http://dspace.fcu.edu.tw/handle/2377/10812">http://dspace.fcu.edu.tw/handle/2377/10812</a></li>
+					<li>Liang, T. Y., Chen, P. C., Chen, S. Y., &amp; Shieh, C. K. (2007, June 25). <b>A Web Server for Developing OpenMP Programs on Computational Grids</b>. <i>GCA 2007, pp. 144-150</i>. <a href="https://dblp.org/rec/conf/gca/LiangCCS07.html">https://dblp.org/rec/conf/gca/LiangCCS07.html</a></li>
+					<li>Koumaras, H., Kourtis, A., Lin, C. H., &amp; Shieh, C. K. (2007, June 19). <b>A theoretical framework for end-to-end video quality prediction of MPEG-based sequences</b>. <i>International Conference on Networking and Services (ICNS '07)</i>. <a href="https://doi.org/10.1109/ICNS.2007.125">https://doi.org/10.1109/ICNS.2007.125</a></li>
+					<li>Chang, Y. L., Liao, H. K., Shieh, C. K., &amp; Miao, Y. B. (2006, December 18). <b>KaiKai: A NAT traversal approach by using protocol behavior analysis</b>. <i>2006 International Conference on Intelligent Information Hiding and Multimedia Signal Processing, IIH-MSP 2006 (pp. 177-180)</i>. <a href="https://doi.org/10.1109/IIH-MSP.2006.265127">https://doi.org/10.1109/IIH-MSP.2006.265127</a></li>
+					<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2006, December 15). <b>Session splice on multimedia communication for mobile computing</b>. <i>IEEE International Conference on Sensor Networks, Ubiquitous, and Trustworthy Computing (vol. 2006 I, pp. 166-171)</i>. <a href="https://doi.org/10.1109/SUTC.2006.124">https://doi.org/10.1109/SUTC.2006.124</a></li>
+					<li>Chen, P. C., Chang, J. B., Liang, T. Y., Shieh, C. K., &amp; Zhuang, Y. C. (2006, December 1). <b>A multi-layer resource reconfiguration framework for grid computing</b>. <i>4th International Workshop on Middleware for Grid Computing (MGC'06) held at the ACM/IFIP/USENIX International Middleware Conference</i>. <a href="https://doi.org/10.1145/1186675.1186689">https://doi.org/10.1145/1186675.1186689</a></li>
+					<li>Ke, C. H., Chilamkurti, N., &amp; Shieh, C. K. (2006, December 1). <b>A new adaptive FEC algorithm for wireless LAN networks</b>. <i>IASTED International Conference on Networks and Communication Systems 2006 (vol. 2006, pp. 425-428)</i>. <a href="https://www.researchgate.net/publication/266017215_A_NEW_ADAPTIVE_FEC_ALGORITHM_FOR_WIRELESS_LAN_NETWORKS">https://www.researchgate.net/publication/266017215_A_NEW_ADAPTIVE_FEC_ALGORITHM_FOR_WIRELESS_LAN_NETWORKS</a></li>
+					<li>Kao, K. L., &amp; Shieh, C. K. (2006, December 1). <b>An advanced simulation tool-set for video transmission performance evaluation</b>. <i>2006 Workshop on ns-2: the IP Network Simulator</i>. <a href="https://doi.org/10.1145/1190455.1190464">https://doi.org/10.1145/1190455.1190464</a></li>
+					<li>Kao, K. L., &amp; Shieh, C. K. (2006, December 1). <b>Video transmission performance evaluation of ad hoc routing protocols</b>. <i>2006 International Conference on Intelligent Information Hiding and Multimedia Signal Processing, IIH-MSP 2006 (pp. 181-184)</i>. <a href="https://doi.org/10.1109/IIH-MSP.2006.265128">https://doi.org/10.1109/IIH-MSP.2006.265128</a></li>
+					<li>Yu, C., Ke, C. H., Shieh, C. K., &amp; Chilamkurti, N. (2006, November 14). <b>MyEvalvid-NT - A simulation tool-set for video transmission and quality evaluation</b>. <i>2006 IEEE Region 10 Conference, TENCON 2006</i>. <a href="https://doi.org/10.1109/TENCON.2006.343864">https://doi.org/10.1109/TENCON.2006.343864</a></li>
+					<li>Liang, T. Y., Chen, P. C., Fan, P.H., Chang, J.B., Yang, J., Shieh, C. K., &amp; Chilamkurti, N. (2006, November). <b>Design and Implementation of A OpenMP Application Development on WWW</b>. <i>2006 International Conference on Open Source Systems</i>. <a href=""></a></li>
+					<li>Yu, N. S., &amp; Shieh, C. K. (2006, September 13). <b>Improving the lookup performance of chord network by hashing landmark clusters</b>. <i>2006 IEEE International Conference on Networks, ICON 2006 - Networking-Challenges and Frontiers (vol. 2, pp. 471-474)</i>. <a href="https://doi.org/10.1109/ICON.2006.302674">https://doi.org/10.1109/ICON.2006.302674</a></li>
+					<li>Liang, T. Y., Wang, S. H., &amp; Shieh, C. K. (2006, July 17). <b>Supporting the OpenMP programming interface on teamster-G</b>. <i>1st International Conference on Grid and Pervasive Computing,GPC 2006 (vol. 3947 LNCS, pp. 547-556)</i>. <a href="https://doi.org/10.1007/11745693_54">https://doi.org/10.1007/11745693_54</a></li>
+					<li>Lin, C. H., Ke, C. H., Shieh, C. K., &amp; Chilamkurti, N. K. (2006, July 16). <b>An enhanced adaptive FEC mechanism for video delivery over wireless networks</b>. <i>International Conference on Networking and Services 2006, ICNS'06 (p. 106)</i>. <a href="https://doi.org/10.1109/ICNS.2006.123">https://doi.org/10.1109/ICNS.2006.123</a></li>
+					<li>Liang, H. M., Ke, C. H., Shieh, C. K., &amp; Chilamkurti, N. K. (2006, July 16). <b>Performance evaluation of 802.11e EDCF in infrastructure mode with real audio/video traffic</b>. <i>International Conference on Networking and Services 2006, ICNS'06 (pp. 92-97)</i>. <a href="https://doi.org/10.1109/ICNS.2006.81">https://doi.org/10.1109/ICNS.2006.81</a></li>
+					<li>Ke, C. H., Lin, C. H., Shieh, C. K., &amp; Hwang, W. S. (2006, June 5). <b>A novel realistic simulation tool for video transmission over wireless network</b>. <i>IEEE International Conference on Sensor Networks, Ubiquitous, and Trustworthy Computing (vol. 2006 II, pp. 275-281)</i>. <a href="https://doi.org/10.1109/SUTC.2006.1636186">https://doi.org/10.1109/SUTC.2006.1636186</a></li>
+					<li>Ke, C. H., Chilamkurti, N., &amp; Shieh, C. K. (2006, April 23). <b>A new framework for H.264 video delivery over heterogeneous networks</b>. <i>International Conference on Networking, International Conference on Systems and International Conference on Mobile Communications and Learning Technologies, ICN/ICONS/MCL'06 (vol. 2006, pp. 109-113)</i>. <a href="https://doi.org/10.1109/ICNICONSMCL.2006.21">https://doi.org/10.1109/ICNICONSMCL.2006.21</a></li>
+					<li>Lin, C. H., Ke, C. H., Shieh, C. K., &amp; Chilamkurti, N. K. (2006, April 18). <b>The packet loss effect on MPEG video transmission in wireless networks</b>. <i>The IEEE 20th International Conference on Advanced Information Networking and Applications (vol. 1, pp. 567-572)</i>. <a href="https://doi.org/10.1109/AINA.2006.325">https://doi.org/10.1109/AINA.2006.325</a></li>
+					<li>Shirwadkar, U., Chilamkurti, N., &amp; Shieh, C. K. (2006, April 11). <b>A new end-to-end QoS mechanism for video delivery over heterogeneous networks</b>. <i>2006 IFIP International Conference on Wireless and Optical Communications Networks</i>. <a href="https://doi.org/10.1109/wocn.2006.1666559">https://doi.org/10.1109/wocn.2006.1666559</a></li>
+					<li>Liang, H. M., Ke, C. H., Shieh, C. K., &amp; Chilamkurti, N. K. (2006, April 11). <b>Performance evaluation of 802.11e EDCF in the Ad-Hoc mode with real audio/video traffic</b>. <i>2006 IFIP International Conference on Wireless and Optical Communications Networks</i>. <a href="https://doi.org/10.1109/wocn.2006.1666581">https://doi.org/10.1109/wocn.2006.1666581</a></li>
+					<li>Liang, T. Y., Chen, P. C., Fan, P.H., Chang, J.B., Yang, J., Shieh, C. K., &amp; Chilamkurti, N. (2006, March). <b>A Web-based OpenMP Application Development Environment</b>. <i>Proceedings of The 12 th Workshop on Compiler Technique for High-Performance Computing</i>. <a href=""></a></li>
+					<li>Liang, T. Y., Wu, C. Y., Chang, J. B., Shieh, C. K., &amp; Fan, P. H. (2005, December 7). <b>Enabling software DSM system for grid computing</b>. <i>8th International Symposium on Parallel Architectures, Algorithms and Networks, I-SPAN 2005 (vol. 2005, pp. 428-433)</i>. <a href="https://doi.org/10.1109/ISPAN.2005.44">https://doi.org/10.1109/ISPAN.2005.44</a></li>
+					<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2005, November 16). <b>An object proxy service for P2P file sharing in mobile computing</b>. <i>2005 13th IEEE International Conference on Networks jointly held with the 2005 7th IEEE Malaysia International Conference on Communications (vol. 2, pp. 737-742)</i>. <a href="https://doi.org/10.1109/ICON.2005.1635601">https://doi.org/10.1109/ICON.2005.1635601</a></li>
+					<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2005, November 16). <b>Unsolicited relay network for mobile computing</b>. <i>2005 13th IEEE International Conference on Networks jointly held with the 2005 7th IEEE Malaysia International Conference on Communications (vol. 2, pp. 1039-1044)</i>. <a href="https://doi.org/10.1109/ICON.2005.1635667">https://doi.org/10.1109/ICON.2005.1635667</a></li>
+					<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2005, July 27). <b>Smart tunnel union for NAT traversal</b>. <i>4th IEEE International Symposium on Network Computing and Applications, NCA 2005 (vol. 2005, pp. 227-230)</i>. <a href="https://doi.org/10.1109/NCA.2005.50">https://doi.org/10.1109/NCA.2005.50</a></li>
+					<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2005, July 10). <b>Twin-object platform: A generic proxy-based system for communication customization in mobile computing</b>. <i>First International Conference on Wireless Internet, WICON 2005 (vol. 2005, pp. 206-213)</i>. <a href="https://doi.org/10.1109/WICON.2005.35">https://doi.org/10.1109/WICON.2005.35</a></li>
+					<li>Liang, T. Y., Liu, Y. T., Shieh, C. K., &amp; Chang, L. I. (2005, June 27). <b>A multiphased algorithm of workload distribution for software DSM clusters</b>. <i>2005 International Conference on Internet Computing, ICOMP'05 (pp. 332-338)</i>. <a href="https://researchoutput.ncku.edu.tw/en/publications/a-multiphased-algorithm-of-workload-distribution-for-software-dsm">https://researchoutput.ncku.edu.tw/en/publications/a-multiphased-algorithm-of-workload-distribution-for-software-dsm</a></li>
+					<li>Shih, C. H., Tou, Y. M., Shieh, C. K., &amp; Hwang, W. S. (2005, June 13). <b>A self-regulated redundancy control scheme for wireless video transmission</b>. <i>2005 International Conference on Wireless Networks, Communications and Mobile Computing (vol. 1, pp. 439-444)</i>. <a href="https://doi.org/10.1109/WIRLES.2005.1549449">https://doi.org/10.1109/WIRLES.2005.1549449</a></li>
+					<li>Shih, C. H., Wang, J. Y., Shieh, C. K., &amp; Hwang, W. S. (2005, May 23). <b>An Integrated rate control scheme for TCP-friendly MPEG-4 video transmission</b>. <i>Proceedings - IEEE International Symposium on Circuits and Systems</i>. <a href="https://doi.org/10.1109/ISCAS.2005.1465039">https://doi.org/10.1109/ISCAS.2005.1465039</a></li>
+					<li>Liang, T. Y., Wu, C. Y., &amp; Shieh, C. K. (2005, May 9). <b>Teamster-G: A grid-enabled software DSM system</b>. <i>2005 IEEE International Symposium on Cluster Computing and the Grid, CCGrid 2005 (vol. 2, pp. 905-912)</i>. <a href="https://doi.org/10.1109/CCGRID.2005.1558658">https://doi.org/10.1109/CCGRID.2005.1558658</a></li>
+					<li>Cheng, R. S., Lin, H-T., &amp; Shieh, C. K. (2005, March 28). <b>Improving the ramping up behavior of TCP slow start</b>. <i>19th International Conference on Advanced Information Networking and Applications, AINA 2005 (vol. 1, pp. 807-812)</i>. <a href="https://doi.org/10.1109/AINA.2005.217">https://doi.org/10.1109/AINA.2005.217</a></li>
+					<li>Huang, T. C., Shieh, C. K., &amp; Miao, Y. B. (2005, March 28). <b>Java application's packet eavesdropper for content delivery network</b>. <i>19th International Conference on Advanced Information Networking and Applications, AINA 2005 (vol. 1, pp. 993-998)</i>. <a href="https://doi.org/10.1109/AINA.2005.229">https://doi.org/10.1109/AINA.2005.229</a></li>
+					<li>Chang, J. B., &amp; Shieh, C. K. (2005, March 28). <b>Progressive multilayer reconfiguration for software DSM systems in non-dedicated clusters</b>. <i>19th International Conference on Advanced Information Networking and Applications, AINA 2005 (vol. 2, pp. 367-370)</i>. <a href="https://doi.org/10.1109/AINA.2005.285">https://doi.org/10.1109/AINA.2005.285</a></li>
+					<li>Lin, C. H., Ke, C. H., &amp; Shieh, C. K. (2005). <b>A Study of MPEG Video Transmission in Lossy Wireless Networks</b>. <i>Workshop on Wireless, Ad Hoc and Sensor Networks, 2005</i>. <a href="http://acnlab.csie.ncu.edu.tw/myreview/FILES/CR2/p53.pdf">http://acnlab.csie.ncu.edu.tw/myreview/FILES/CR2/p53.pdf</a></li>
+					<li>Chen, W. P., Hwang, W. S., Hsin, T. C., Ho, J. H., &amp; Shieh, C. K. (2005). <b>Study Length Effect of Fiber Delay Line in Optical Switching Node of Metro Ring Networks</b>. <i>Session E63, ISCOM 2005</i>. <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=c2b8da63767444bb59c9083bf2e7f69df5f6b124">https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=c2b8da63767444bb59c9083bf2e7f69df5f6b124</a></li>
+					<li>Yu, Y. S., Shieh, C. K., Hwang, W. S., Hsu, C. C., Ho, C. S., &amp; Chiu, J. F. (2004, December 15). <b>An Efficient NAT Traversal for SIP and Its Associated Media sessions</b>. <i>2004 International Computer Symposium (ICS)</i>. <a href="http://dspace.fcu.edu.tw/handle/2377/1829">http://dspace.fcu.edu.tw/handle/2377/1829</a></li>
+					<li>Chiu, Y. C., Shieh, C. K., Wang, J. X., &amp; Liang, T. Y. (2004, December 13). <b>A real time MPEG-4 parallel encoder on software distributed shared memory systems</b>. <i>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), 3358, 965-974</i>. <a href="https://doi.org/10.1007/978-3-540-30566-8_110">https://doi.org/10.1007/978-3-540-30566-8_110</a></li>
+					<li>Shih, C. H., Liao, C. C., Shieh, C. K., &amp; Huang, W. S. (2004, July 6). <b>A transparent QOS mechanism to support IntServ/DiffServ networks</b>. <i>2004 1st IEEE Consumer Communications and Networking Conference, CCNC 2004; Consumer Networking: Closing the Digital Divide - Proceedings (pp. 233-238)</i>. <a href="https://doi.org/10.1109/CCNC.2004.1286864">https://doi.org/10.1109/CCNC.2004.1286864</a></li>
+					<li>Liang, T. Y., Liu, Y. T., Shieh, C. K., &amp; Wu, C. Y. (2004, May 10). <b>A new approach to distribute program workload on software DSM clusters</b>. <i>7th International Symposium on Parallel Architectures, Algorithms and Networks, 2004. Proceedings</i>. <a href="https://doi.org/10.1109/ISPAN.2004.1300481">https://doi.org/10.1109/ISPAN.2004.1300481</a></li>
+					<li>Liu, Y. T., Liang, T. Y., &amp; Shieh, C. K. (2004, April 19). <b>Involving memory resource consideration into workload distribution for software DSM systems</b>. <i>2004 IEEE International Symposium on Cluster Computing and the Grid, CCGrid 2004 (pp. 395-402)</i>. <a href="https://doi.org/10.1109/CCGrid.2004.1336593">https://doi.org/10.1109/CCGrid.2004.1336593</a></li>
+					<li>Wu, T. H., Ke, C. H., Shieh, C. K., &amp; Hwang, W. S. (2004). <b>A practical approach for providing QoS in Bluetooth Piconet</b>. <i>2004, Proceedings of the Med-Hoc-Net</i>. <a href="http://wshnt.kuas.edu.tw/MyPapers/MedHoc2004Manuscript-A%20Practical%20Approach%20for%20Providing%20QoS%20in%20Bluetooth%20Piconet-20040316.pdf">http://wshnt.kuas.edu.tw/MyPapers/MedHoc2004Manuscript-A%20Practical%20Approach%20for%20Providing%20QoS%20in%20Bluetooth%20Piconet-20040316.pdf</a></li>
+					<li>Liang, T. Y., &amp; Shieh, C. K. (2003, December 1). <b>Adding memory resource consideration into workload distribution for software DSM systems</b>. <i>IEEE International Conference on Cluster Computing, CLUSTER 2003 (vol. 2003-January, pp. 362-369)</i>. <a href="https://doi.org/10.1109/CLUSTR.2003.1253335">https://doi.org/10.1109/CLUSTR.2003.1253335</a></li>
+					<li>Liu, Y. T., Liang, T. Y., &amp; Shieh, C. K. (2003, October 6). <b>Memory resource considerations in the load balancing of software DSM systems</b>. <i>2003 International Conference on Parallel Processing Workshops, ICPPW 2003 (vol. 2003-January, pp. 71-78)</i>. <a href="https://doi.org/10.1109/ICPPW.2003.1240356">https://doi.org/10.1109/ICPPW.2003.1240356</a></li>
+					<li>Shieh, C. K., Miao, Y. B., &amp; Hwang, W. S. (2003, July 3). <b>Dynamic fair queuing (DFQ): A novel fair scheduler improving wireless transmission over hybrid LANs</b>. <i>8th IEEE International Symposium on Computers and Communication, ISCC 2003 (pp. 1409-1414)</i>. <a href="https://doi.org/10.1109/ISCC.2003.1214310">https://doi.org/10.1109/ISCC.2003.1214310</a></li>
+					<li>Chiu, J. F., Huang, Z. P., Lo, C. W., &amp; Shieh, C. K. (2003, February 13). <b>Supporting end-to-end QoS in DiffServ/MPLS networks</b>. <i>10th International Conference on Telecommunications, ICT 2003 (vol. 1, pp. 261-266)</i>. <a href="https://doi.org/10.1109/ICTEL.2003.1191229">https://doi.org/10.1109/ICTEL.2003.1191229</a></li>
+					<li>Ho, J. H., &amp; Shieh, C. K. (2003, January 1). <b>Analytical model for an IP over WDM ring network</b>. <i>10th International Conference on Telecommunications, ICT 2003 (vol. 1, pp. 182-187)</i>. <a href="https://doi.org/10.1109/ICTEL.2003.1191208">https://doi.org/10.1109/ICTEL.2003.1191208</a></li>
+					<li>Huang, T. C., &amp; Shieh, C. K. (2003, January 1). <b>Extending TCP retransmission timeout at mobile IP handoffs for Windows 2000: A case study</b>. <i>7th International Conference on Telecommunications, ConTEL 2003 (vol. 2, pp. 653-656)</i>. <a href="https://doi.org/10.1109/CONTEL.2003.176976">https://doi.org/10.1109/CONTEL.2003.176976</a></li>
+					<li>Huang, Z. P., Chiu, J. F., Hwang, W. S., &amp; Shieh, C. K. (2003). <b>Implement a QoS algorithm for real-time applications in the DiffServ-aware MPLS network</b>. <i>Proc. 2003 International Conference on Informatics, Cybernetics and Systems (ICICS 2003) (pp. 1624-1628)</i>. <a href="http://wshnt.kuas.edu.tw/MyPapers/Implement%20a%20QoS%20Algorithm%20for%20Real-Time%20Applications%20in%20the%20DiffServ-aware%20MPLS%20Network.pdf">http://wshnt.kuas.edu.tw/MyPapers/Implement%20a%20QoS%20Algorithm%20for%20Real-Time%20Applications%20in%20the%20DiffServ-aware%20MPLS%20Network.pdf</a></li>
+					<li>Hwang, W. S., Ho, J. H., &amp; Shieh, C. K. (2002, November 4). <b>Performance Analysis of IP Packets over WDM Ring Networks</b>. <i>IASTED PDCS (pp. 811-816)</i>. <a href="http://wshnt.kuas.edu.tw/MyPapers/pdcs2002.pdf">http://wshnt.kuas.edu.tw/MyPapers/pdcs2002.pdf</a></li>
+					<li>Shih, C. H., Miao, Y. B., Huang, W. S., &amp; Shieh, C. K. (2002, August). <b>Adaptive smooth packet pre-marking strategy for multimedia over differentiated-service networks</b>. <i>2002 Proceedings of the International Conference on Computer Communication (vol. 15, no. 2, p. 740)</i>. <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=e8d978a5091ee0ad5b64c252ed46df0134d92222">https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=e8d978a5091ee0ad5b64c252ed46df0134d92222</a></li>
+					<li>Chiu, J. F., Miao, Y. B., Lo, C. W., Huang, Z. P., Hwang, W. S., &amp; Shieh, C. K. (2002). <b>A new preemption avoidance and load balancing policy for traffic engineering in MPLS networks</b>. <i>Proc. IASTED International Conference on Communications and Computer Networks (CCN 2002) (pp. 234-239) </i>. <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=6ea0338752c99e1d861ecaeab096ddfe3884bcf0">https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=6ea0338752c99e1d861ecaeab096ddfe3884bcf0</a></li>
+					<li>Tseng, Y. H., Hwang, W. S., &amp; Shieh, C. K. (2002). <b>The influence of propagation environment in a live GSM network</b>. <i>2022 Proceedings of the International Computer Symposium (vol. 1, pp. 339-345)</i>. <a href="http://dspace.fcu.edu.tw/handle/2377/1299">http://dspace.fcu.edu.tw/handle/2377/1299</a></li>
+					<li>Hwang, W. S., Miao, Y. B., Ke, C. H., Chiu, J. F., &amp; Shieh, C. K. (2001, November 25). <b>An approach of QoS library redirection method for DiffServ in microsoft windows systems</b>. <i>GLOBECOM'01. IEEE Global Telecommunications Conference (Cat. No. 01CH37270) (vol. 4, pp. 2295-2298)</i>. <a href="https://doi.org/10.1109/GLOCOM.2001.966188">https://doi.org/10.1109/GLOCOM.2001.966188</a></li>
+					<li>Zhuang, Y. C., Shieh, C. K., Liang, T. Y., &amp; Tseng, L. M. (2001, May 15). <b>A group-based load balance scheme for software distributed shared memory systems</b>. <i>1st IEEE/ACM International Symposium on Cluster Computing and the Grid, CCGrid 2001 (pp. 371-378)</i>. <a href="https://doi.org/10.1109/CCGRID.2001.923216">https://doi.org/10.1109/CCGRID.2001.923216</a></li>
+					<li>Chang, J. B., &amp; Shieh, C. K. (2001, May). <b>Teamster: A transparent distributed shared memory for cluster symmetric multiprocessors</b>. <i>1st IEEE/ACM International Symposium on Cluster Computing and the Grid, CCGrid 2001 (pp. 508-513)</i>. <a href="https://doi.org/10.1109/CCGRID.2001.923235">https://doi.org/10.1109/CCGRID.2001.923235</a></li>
+					<li>Zhuang, Y. C., Shieh, C. K., Liang, T. Y., &amp; Chou, C. H. (2001, April 16). <b>Maximizing speedup through performance prediction for distributed shared memory systems</b>. <i>Proceedings 21st International Conference on Distributed Computing Systems (pp. 723-726)</i>. <a href="https://doi.org/10.1109/ICDSC.2001.919009">https://doi.org/10.1109/ICDSC.2001.919009</a></li>
+					<li>Shieh, C. K., Ke, C. H., &amp; Chiu, J. F. (2001, January 1). <b>A transparent packet pre-marking method for DiffServ</b>. <i>IEEE International Conference on Communications, 9</i>. <a href="https://doi.org/10.1109/ICC.2001.936679">https://doi.org/10.1109/ICC.2001.936679</a></li>
+					<li>Wang, J. Y., Hwang, W. S., Wang, W. F., &amp; Shieh, C. K. (2000, September 5). <b>Modelling multi-channel slotted ring networks with tunable transmitters and fixed receivers</b>. <i>2000 IEEE International Conference on Networks: Networking Trends and Challenges in the New Millennium, ICON 2000 (pp. 449-456)</i>. <a href="https://doi.org/10.1109/ICON.2000.875829">https://doi.org/10.1109/ICON.2000.875829</a></li>
+					<li>Liang, T. Y., Shieh, C. K., &amp; Li, J. Q. (2000, August 21). <b>An effective selection policy for load balancing in software DSM</b>. <i>Proceedings 2000 International Conference on Parallel Processing (pp. 105-112)</i>. <a href="https://doi.org/10.1109/ICPP.2000.876087">https://doi.org/10.1109/ICPP.2000.876087</a></li>
+					<li>Ueng, J. C., Shieh, C. K., &amp; Lin, C. C. (1999, August 6). <b>Proteus: A runtime reconfigurable distributed shared memory system</b>. <i>IEEE International Symposium on High Performance Distributed Computing, Proceedings (Cat. No. 99TH8469) (pp. 347-348)</i>. <a href="https://doi.org/10.1109/HPDC.1999.805321">https://doi.org/10.1109/HPDC.1999.805321</a></li>
+					<li>Ueng, J. C., Shieh, C. K., &amp; Lin, C. C. (1999). <b>Design and Implementation of Proteus</b>. <i>Proceedings of the First Workshop on Software Distributed Shared Memory (WSDSM'99) (pp. 39-46)</i>. <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=e8560c7cd2fbe33127e6850d70579e890f61efdf">https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=e8560c7cd2fbe33127e6850d70579e890f61efdf</a></li>
+					<li>Chang, J. B., Tsai, Y. J., Shieh, C. K., &amp; Chung, P.C. (1998, December 14). <b>An efficient thread architecture for a distributed shared memory on symmetric multiprocessor clusters</b>. <i>Proceedings of the 1998 International Conference on Parallel and Distributed Systems, ICPADS (pp. 816-823)</i>. <a href="https://doi.org/10.1109/ICPADS.1998.741172">https://doi.org/10.1109/ICPADS.1998.741172</a></li>
+					<li>Zhu, W., Liang, T., &amp; Shieh, C. K. (1998, December 14). <b>Cluster queue structure for shared-memory multiprocessor systems</b>. <i>Proceedings 1998 International Conference on Parallel and Distributed Systems (Cat. No.98TB100250) (pp. 420-427)</i>. <a href="https://doi.org/10.1109/ICPADS.1998.741108">https://doi.org/10.1109/ICPADS.1998.741108</a></li>
+					<li>Liu, Y. Z., &amp; Shieh, C. K. (1998, December 14). <b>Supporting small accesses for the parallel file subsystem on distributed shared memory systems</b>. <i>Proceedings of the 1998 International Conference on Parallel and Distributed Systems, ICPADS (pp. 808-815)</i>. <a href="https://doi.org/10.1109/ICPADS.1998.741171">https://doi.org/10.1109/ICPADS.1998.741171</a></li>
+					<li>Zhuang, Y. C., Shieh, C. K., &amp; Liang, T. Y. (1998). <b>The Study of Centralized Load Balance on Distributed Shared Memory Systems</b>. <i>Proceedings of the 1998 International Computer Symposium (pp. 137-143)</i>. <a href="http://dspace.fcu.edu.tw/handle/2377/2107">http://dspace.fcu.edu.tw/handle/2377/2107</a></li>
+					<li>Chang, C. Y., &amp; Shieh, C. K. (1993, October 19). <b>The performance improvement of wormhole router for multicomputer systems</b>. <i>Proceedings of the 1993 IEEE Region 10 Conference on Computer, Communication, Control and Power Engineering (TENCON '93). Part 1 (of 5) (pp. 254-257)</i>. <a href="https://doi.org/10.1109/TENCON.1993.319976">https://doi.org/10.1109/TENCON.1993.319976</a></li>
+				</ol>
+			</div>
+			<div class="col" id="patent-section">
+				<p class="strong">專利</p>
+				<ol class="align-left col" id="patent">
+					<li>謝錫堃、張志標、王俊又、歐奇隴（2019年7月21日）。<b>在NetFlow上以會話型式之P2P殭屍網路偵測方法</b>（中華民國專利號I666568）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI666568B">https://patents.google.com/patent/TWI666568B</a></li>
+					<li>謝錫堃、張志標、王俊又、徐晟旼（2017年8月21日）。<b>基於FedMR之殭屍網路聯偵方法</b>（中華民國專利號I596498）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI596498B">https://patents.google.com/patent/TWI596498B</a></li>
+					<li>謝錫堃、張志標、徐瑞興（2015年9月11日）。<b>聯合多運算叢集系統執行映射化簡程式的方法</b>（中華民國專利號I499971）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI499971B">https://patents.google.com/patent/TWI499971B</a></li>
+					<li>苗育本、張永立、廖祥凱、謝錫堃（2014年6月11日）。<b>網路位址轉換的系統與方法</b>（中華民國專利號I441493）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI441493B">https://patents.google.com/patent/TWI441493B</a></li>
+					<li>苗育本、謝錫堃、黃祖基、魏全佑、羅本文、曾秉鈞（2013年11月11日）。<b>同儕即時串流系統與方法</b>（中華民國專利號I415427）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI415427B">https://patents.google.com/patent/TWI415427B</a></li>
+					<li>游允帥、王思諭、謝錫堃、苗育本（2013年9月1日）。<b>同儕選擇與管理方法與系統，及其電腦程式產品</b>（中華民國專利號I407812）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI407812B">https://patents.google.com/patent/TWI407812B</a></li>
+					<li>苗育本、陳韋宏、謝錫堃（2013年4月1日）。<b>接合多媒體串流於通訊網路的裝置與方法</b>（中華民國專利號I392309）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI392309B">https://patents.google.com/patent/TWI392309B</a></li>
+					<li>苗育本、游允帥、林群翔、謝錫堃（2013年1月1日）。<b>串流資料之網路傳輸系統與方法</b>（中華民國專利號I381716）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI381716B">https://patents.google.com/patent/TWI381716B</a></li>
+					<li>邱基峰、苗育本、呂佳旻、游允帥、黃祖基、謝錫堃（2011年11月1日）。<b>傳遞串流服務之裝置與方法</b>（中華民國專利號I351849）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI351849B">https://patents.google.com/patent/TWI351849B</a></li>
+					<li>郭俊儀、施啟煌、謝錫堃、黃文祥（2011年2月21日）。<b>具有內部排列機制的前向糾錯系統</b>（中華民國專利號M398730）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWM398730U">https://patents.google.com/patent/TWM398730U</a></li>
+					<li>苗育本、余泰興、胡鈞祥、謝錫堃、黃祖基、賴柏仰（2010年6月11日）。<b>支援持續連線的行動管理系統與方法</b>（中華民國專利號I326173）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI326173B">https://patents.google.com/patent/TWI326173B</a></li>
+					<li>Wang, J. Y., Hwang, W. S., Wang, W. F., Shieh, C. K. (2007, February 6). <b>Multi-priority media access control method for multi-channel slotted ring networks</b>(United States Patent No. 7,174,374). Washington, D.C.: U.S. Patent and Trademark Office. <a href="https://patents.google.com/patent/US7174374B2">https://patents.google.com/patent/US7174374B2</a></li>
+					<li>謝錫堃、黃文祥、游允帥、何哲勳、邱基峰、張賢安（2007年1月11日）。<b>網路傳輸系統及其方法</b>（中華民國專利號I271060）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TWI271060B">https://patents.google.com/patent/TWI271060B</a></li>
+					<li>謝錫堃、黃文祥、苗育本、柯志亨、邱基峰（2003年4月21日）。<b>微軟視窗作業系統下具通透性之差異性服務封包標住方法</b>（中華民國專利號528949）。臺北：中華民國經濟部智慧財產局。<a href="https://patents.google.com/patent/TW528949B">https://patents.google.com/patent/TW528949B</a></li>
+				</ol>
+			</div>
+			<div class="align-left" id="contact-us">
+				<div class="col for-horizontal">
+					<p class="center-self strong">Contact Us</p>
+					<span> 台灣 國立成功大學電機工程學系 高效能平行分散系統實驗室</span>
+					<span>（High performance Parallel and Distributed System Lab — HPDS Lab）</span>
+					<table class="align-left">
+						<tbody>
+							<tr>
+								<th>地址</th>
+								<td>台南市東區大學路1號自強校區電機系館五樓92579室</td>
+							</tr>
+							<tr>
+								<th>TEL</th>
+								<td>(06)275-7575#62400#1779（轉兩次分機）</td>
+							</tr>
+						</tbody>
+					</table>
+					<br>
+					<span>謝錫堃 教授</span>
+					<table class="align-left">
+						<tbody>
+							<tr>
+								<th>E-mail</th>
+								<td><a href="mailto:shieh@ee.ncku.edu.tw" target="_blank">shieh@ee.ncku.edu.tw</a></td>
+							</tr>
+							<tr>
+								<th>地址</th>
+								<td>台南市東區大學路1號自強校區電機系館五樓92505室</td>
+							</tr>
+							<tr>
+								<th>TEL</th>
+								<td>(06)275-7575#62359</td>
+							</tr>
+							<tr>
+								<th rowspan="2">連結</th>
+								<td><a href="https://researchoutput.ncku.edu.tw/zh/persons/ce-kuen-shieh/" target="_blank">Research NCKU!</a></td>
+							</tr>
+							<tr>
+								<td><a href="https://www.linkedin.com/in/%E9%8C%AB%E5%A0%83-%E8%AC%9D-23287b124" target="_blank">LinkedIn</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="for-vertical">
+					<p class="center-self strong">Contact Us</p>
+					<span>成大電機 高效能平行分散系統實驗室（HPDS Lab）</span>
+					<ul>
+						<li><span>地址</span>：成大 自強校區 電機系館五樓92579室</li>
+						<li><span>電話</span>：(06)275-7575 #62400 #1779（轉兩次分機）</li>
+					</ul>
+					<span>謝錫堃 教授</span>
+					<ul>
+						<li><span>E-mail</span>：<a href="mailto:shieh@ee.ncku.edu.tw" target="_blank">shieh@ee.ncku.edu.tw</a></li>
+						<li><span>地址</span>：成大 自強校區 電機系館五樓92505室</li>
+						<li><span>電話</span>：(06)275-7575#62359</li>
+						<li><a href="https://researchoutput.ncku.edu.tw/zh/persons/ce-kuen-shieh/" target="_blank">Research NCKU!</a></li>
+						<li><a href="https://www.linkedin.com/in/%E9%8C%AB%E5%A0%83-%E8%AC%9D-23287b124" target="_blank">LinkedIn</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col" id="footer">
+				<span class="for-horizontal">© 2020-2025 HPDS Lab. 版權所有 轉載請註明出處</span>
+				<span class="for-vertical">© 2020-2025 HPDS Lab.</span>
+				<span class="for-vertical">版權所有 轉載請註明出處</span>
+				<span>最後更新：<span id="last-updated">2025年1月5日</span></span>
+			</div>
+		</div>
+		<script src="https://unpkg.com/fitty/dist/fitty.min.js"></script>
+		<script src="/js/index.028ed9b1.js"></script>
+	</body>
+</html>
